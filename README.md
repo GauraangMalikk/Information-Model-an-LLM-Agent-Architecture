@@ -7,11 +7,14 @@ This system combines agent generation, response storage, planning categorization
 ---
 ## 📚 Table of Contents
 
+## 📚 Table of Contents
+
 - [Introduction](paper/intro.md)
 - [Methods](methods/methods.md)
 - [Results](results/results.md)
 - [Literature Review](lit_review/literature_review.md)
-- [Credits](#credits)
+- [Credits](README.md#credits)
+
 
 ---
 
