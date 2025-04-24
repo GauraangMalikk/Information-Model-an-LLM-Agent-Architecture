@@ -7,12 +7,13 @@ This system combines agent generation, response storage, planning categorization
 ---
 ## 📚 Table of Contents
 
-- [Overview](./README.md)
-- [Methods (Blocks A–H)](methods.md)
-- [Results](results.md) 
-- [Paper](intro.md)
-- [Literature Review](literature_review.md)
+
+- [Introduction](LLM%20+%20Agent/paper/intro.md)
+- [Methods](LLM%20+%20Agent/methods/methods.md)
+- [Results](LLM%20+%20Agent/results/results.md)
+- [Literature Review](LLM%20+%20Agent/lit_review/literature_review.md)
 - [Credits](./README.md#credits)
+
 
 
 ---
