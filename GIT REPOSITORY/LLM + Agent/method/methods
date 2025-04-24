@@ -1,0 +1,64 @@
+# Methods
+
+## Overview
+Two experimental tasks were run with a total of 19 agent responses (15 for Task 1, 4 for Task 2). After embedding each response, we computed pairwise Euclidean distance and cosine similarity scores, assigned a stability status (Converging, Mixed, or Need Human Feedback), and visualized the data with heat maps and PCA-based clustering.
+
+## 1. Pairwise Similarity and Divergence (Task 1)
+- **Distances & similarities**: Euclidean distances ranged from 0.0267 (ChatCoT ↔ TPTU) to 1.1141 (LLM+P ↔ LLM Planner). Cosine similarities spanned 0.041 (ChatCoT ↔ Inner Monologue) to 0.999 (several near-identical pairs).
+- **Flagging thresholds**: Pairs with distance > 0.95 or similarity < 0.50 were automatically labeled *Need Human Feedback*.
+  - Example diverging pair: CoT ↔ Zero Shot CoT (distance = 1.02; similarity = .48).
+  - Example mixed pair: CoT ↔ TPTU (distance = 0.95; similarity = .55).
+- **Stability counts**: Of the 105 total pairs in Task 1, 41 (39 %) were Converging, 34 (32 %) were Mixed, and 30 (29 %) required Human Feedback.
+
+## 2. Task-Level Comparison
+**Task 1**:
+- Agents such as LLM Planner and Chain of Thought (CoT) exhibited distinct vector sums (2.0000 vs. 1.5316), reflecting their more elaborate or varied treatments of the quantum computing query.
+- A subset of agent pairs—CoT ↔ ChatCoT and CoT ↔ Self Refine—fell into partial agreement, reflecting moderate conceptual overlap.
+- Several pairs were flagged as diverging (e.g., CoT ↔ Zero Shot CoT, CoT ↔ Re Prompting, CoT ↔ LLM4RL).
+
+**Task 2**:
+- Only four agent responses were stored, showing narrower coverage compared to Task 1.
+- Re Prompting and Self Refine were semantically close, while ReWOO diverged.
+
+## 3. Heat Map Visualizations
+- Figure 3 (cosine similarity heat map) and Figure 4 (Euclidean distance heat map) illustrate pairwise agent similarity.
+  - **Cosine heat map**: Red = high similarity; Blue = low similarity.
+  - **Euclidean heat map**: Light = close vectors; Dark = distant vectors.
+- Three clusters emerged:
+  1. Reasoning with Feedback (Self Refine, SelfCheck, ReAct)
+  2. Planner agents (LLM Planner, LLM+P)
+  3. CoT agents (CoT, Zero Shot CoT, Tree of Thought)
+
+## 4. K-Means Clustering
+- PCA reduced 768-d embeddings to 2D.
+- KMeans (k=3) grouped the vectors:
+
+| Cluster | Color  | % of pairs | Representative pairs                             |
+|--------|--------|------------|--------------------------------------------------|
+| 0      | Purple | 60%        | CoT vs Tree of Thought, Self Refine vs SelfCheck |
+| 1      | Teal   | 27%        | LLM Planner vs LLM+P, ReWOO vs HuggingGPT        |
+| 2      | Yellow | 13%        | LLM4RL vs Inner Monologue, ReWOO vs LLM+P        |
+
+## 5. Aggregated Agent Metrics (Task 1)
+
+| Agent        | Avg. Euclidean Distance | Avg. Cosine Similarity |
+|--------------|--------------------------|-------------------------|
+| Self Refine  | 0.33                     | .90                     |
+| SelfCheck    | 0.32                     | .88                     |
+| HuggingGPT   | 0.61                     | .59                     |
+| LLM+P        | 0.77                     | .27                     |
+| LLM Planner  | 0.95                     | .81                     |
+
+## 6. Indicators for Human Feedback
+Agent pairs were flagged when they exhibited:
+1. Conflicting definitions or divergent concepts
+2. Speculative content in one response but not the other
+3. Stylistic or lexical mismatches impacting similarity
+
+Domain expert review resolved flagged pairs before updating weights.
+
+## 7. Key Takeaways
+1. Divergence hotspots (LLM Planner) suggest a need for re-prompting or refinement.
+2. Partial agreement pairs may benefit from aligned prompts or shared memory.
+3. Convergent agents can serve as reliable consensus generators.
+4. Iterative feedback (automated + human) is essential for mitigating residual hallucinations.
