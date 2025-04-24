@@ -7,21 +7,11 @@ This system combines agent generation, response storage, planning categorization
 ---
 ## 📚 Table of Contents
 
-- [Overview](#overview)
-- [Methods (Blocks A–H)](#methods-blocks-a-h)
-  - [Block A – System Setup, Agent Execution, DB Design, and Semantic Search](#block-a--system-setup-agent-execution-db-design-and-semantic-search)
-  - [Block B – Multi-Agent Response Evaluation](#block-b--multi-agent-response-evaluation)
-  - [Block C – PCA-Reduced Task Matrix and Pairwise Score Analysis](#block-c--pca-reduced-task-matrix-and-pairwise-score-analysis)
-  - [Block D – Heatmaps of Pairwise Agent Similarity](#block-d--heatmaps-of-pairwise-agent-similarity)
-  - [Block E – Per-Agent Aggregated Metrics Across Tasks](#block-e--per-agent-aggregated-metrics-across-tasks)
-  - [Block F – KMeans Clustering of Agent Pair Performance](#block-f--kmeans-clustering-of-agent-pair-performance)
-  - [Block G – Planning Taxonomy–Aware Clustering](#block-g--planning-taxonomyaware-clustering)
-  - [Block H – Complexity-Based Agent Ranking](#block-h--complexity-based-agent-ranking)
-- [Results](#results)
-- [Paper](#paper)
-- [Credits](#credits)
-
-
+- [Overview](./README.md)
+- [Methods (Blocks A–H)](./methods/)
+- [Results](./results/)
+- [Paper](./paper/)
+- [Credits](./README.md#credits)
 
 ---
 
