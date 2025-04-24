@@ -9,7 +9,7 @@ This system combines agent generation, response storage, planning categorization
 
 - [Overview](./README.md)
 - [Methods (Blocks A–H)](./methods/methods.md)
-- [Results](./results/results.md)
+- [Results](./results/results.md) 
 - [Paper](./paper/intro.md)
 - [Literature Review](./lit_review/literature_review.md)
 - [Credits](./README.md#credits)
