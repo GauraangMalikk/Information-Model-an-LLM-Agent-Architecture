@@ -5,11 +5,10 @@ A modular multi-agent architecture for evaluating hallucination reduction strate
 This system combines agent generation, response storage, planning categorization, and vector-based evaluation using FAISS, PCA, and KMeans clustering — implemented and tested on a local TinyLLaMA server.
 
 ---
-
 ## 📚 Table of Contents
 
 - [Overview](#overview)
-- [Architecture (Blocks A–H)](#architecture-blocks-a-h)
+- [Methods (Blocks A–H)](#methods-blocks-a-h)
   - [Block A – System Setup, Agent Execution, DB Design, and Semantic Search](#block-a--system-setup-agent-execution-db-design-and-semantic-search)
   - [Block B – Multi-Agent Response Evaluation](#block-b--multi-agent-response-evaluation)
   - [Block C – PCA-Reduced Task Matrix and Pairwise Score Analysis](#block-c--pca-reduced-task-matrix-and-pairwise-score-analysis)
@@ -18,10 +17,10 @@ This system combines agent generation, response storage, planning categorization
   - [Block F – KMeans Clustering of Agent Pair Performance](#block-f--kmeans-clustering-of-agent-pair-performance)
   - [Block G – Planning Taxonomy–Aware Clustering](#block-g--planning-taxonomyaware-clustering)
   - [Block H – Complexity-Based Agent Ranking](#block-h--complexity-based-agent-ranking)
-- [Setup & Usage](#setup--usage)
-- [Folder Structure](#folder-structure)
-- [Technologies Used](#technologies-used)
+- [Results](#results)
+- [Paper](#paper)
 - [Credits](#credits)
+
 
 
 ---
