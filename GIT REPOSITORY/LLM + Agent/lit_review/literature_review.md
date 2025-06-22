@@ -7,7 +7,6 @@ Keywords
 Large language models, AI Hallucination, LLM Agents.
 
 
-
 Introduction
 
 Large language models can recognize and generate text in real-time. LLMs can perform a variety of tasks but are limited with the knowledge within its parameters.
@@ -16,22 +15,15 @@ The limited knowledge is a source of hallucination. AI agent use external source
 
 In this paper we propose the information model that compares multiple agent outputs and finds the best agent for a task. The model provides weights to the agents according to their performance. The information model uses the principles of research triangulation to find the best agent for a task. Research triangulation is a method used to increase the credibility and validity of research findings by comparing results from multiple data sources, Investigators and methods. Similarly, the information model compares different methods of agents and compares different data sources to draw conclusions.
 
-
-
 Literature review
 
 Transformer
 
 Transformer is a neural network capable of unsupervised learning. As shown in figure 1, the transformer consists of encoder and decoder stacks. Words embedded in the input embedding of a transformer are called tokens. The encoder understands the meaning of a token and the relationship between tokens. The encoder updates the meaning of the sentence by adjusting its weights. The decoder understands the meaning of a prompt by comparing the prompt with the meaning stored in the encoder. By comparing the weights with other tokens, the model decides how similar or dissimilar a word is to each other. The model updates the weights of each token multiple times, enhancing the meaning of each token. With the newly generated embedding the model determines the probability of the next token. A transformer-based neural network allows token embedding in billions of parameters and can read large amounts of data while generating text. (Vaswani et al., 2017).  Encoder models like BERT are great at understanding language, while decoder models like GPT4 are great at text generation.
 
-
-
 Encoder
 
 Encoder has multiple layers stacked on each other that determine the weights of tokens. The encoder places token in a multi parametric matrix where each parameter holds meaning and the position captures essential information about the input. Encoders help a machine learning model understand human language. (Vaswani et al., 2017)
-
-Figure 1 - The Transformer architecture(Vaswani et al., 2017)
-
 
 
 Input embedding
@@ -48,17 +40,11 @@ The model stores multiple meanings of a token at the same point in space. The to
 
 The Scaled Dot-product
 
-Figure 2 - Scaled dot product attention(Vaswani et al., 2017)
-
-As shown in Figure 2, The Scaled Dot-product makes the model understand the context of the combination of words by paying attention to the relationship of a word in context to the sentence. For example, a 'financial Bank' is different from a 'river bank'.  The model can understand the context by the dot product of the Query, Key and Value matrix. The query matrix consists of all the embedding of an input text. Producing a query vector for each token. The Key matrix, similar to the query matrix, also consists of all the embedding of the input text. The query key dot product compares all the words in the queries with the keys. When the key and the query vector closely align in the matrix the words are highly related and if they do not align, the words are not related. The query key matrix contains weights that denote the relation of all the words in the input text. The value matrix updates the weights of the embeddings allowing words that are highly related to pass information to each other. The weights assigned in the value matrix determine what should be added to a vector that reflects the meaning of another vector. The value matrix assigns weights to each query vector, and adds the weights to each Key vector, this updates the weights of an embedding with the values of another embedding. The updated values encapsulate the meaning of two embeddings in a single position for all the words that are relevant to adjusting the meaning of another word. The attention pattern matrix combines all three matrices, The output contains the combined meaning of multiple relevant words. (Vaswani et al., 2017)
+The Scaled Dot-product makes the model understand the context of the combination of words by paying attention to the relationship of a word in context to the sentence. For example, a 'financial Bank' is different from a 'river bank'.  The model can understand the context by the dot product of the Query, Key and Value matrix. The query matrix consists of all the embedding of an input text. Producing a query vector for each token. The Key matrix, similar to the query matrix, also consists of all the embedding of the input text. The query key dot product compares all the words in the queries with the keys. When the key and the query vector closely align in the matrix the words are highly related and if they do not align, the words are not related. The query key matrix contains weights that denote the relation of all the words in the input text. The value matrix updates the weights of the embeddings allowing words that are highly related to pass information to each other. The weights assigned in the value matrix determine what should be added to a vector that reflects the meaning of another vector. The value matrix assigns weights to each query vector, and adds the weights to each Key vector, this updates the weights of an embedding with the values of another embedding. The updated values encapsulate the meaning of two embeddings in a single position for all the words that are relevant to adjusting the meaning of another word. The attention pattern matrix combines all three matrices, The output contains the combined meaning of multiple relevant words. (Vaswani et al., 2017)
 
 Multi-head attention
 
-
-
-Figure 3 – Multi-head Attention (Vaswani et al., 2017)
-
-As shown in figure 3, The multi-head attention contains multiple sets of Scaled Dot-product attention blocks. The multiple heads of Query, Key and Value matrices enable the machine to understand different contexts of the same sentence. The Concat layer adds the values of the multiple scaled dot products together providing a rich meaning of the context. (Vaswani et al., 2017)
+The multi-head attention contains multiple sets of Scaled Dot-product attention blocks. The multiple heads of Query, Key and Value matrices enable the machine to understand different contexts of the same sentence. The Concat layer adds the values of the multiple scaled dot products together providing a rich meaning of the context. (Vaswani et al., 2017)
 
 Add & Norm
 
@@ -107,8 +93,6 @@ Large language models can recognize and generate text in real-time. LLMs are tra
 Multimodal large language models
 
 The scale of large language models has grown recently at the beginning large language models preform text-to-text tasks, now LLMs are capable of handling other generative tasks like text to image, text to video. This capability is known as Multimodal large language models. Multimodality is the application of multiple literacies within one medium.
-
-
 
 What is AI Hallucination
 
@@ -162,8 +146,6 @@ Parametric Knowledge bias
 
 Models with large corpus memorize their knowledge in its parameters through positional encoding. This knowledge improves the performance of a task. The model that favors generating output with the prometric knowledge than the input of the users can result in AI hallucinations. (Ji et al., 2022)
 
-
-
 Types of hallucination
 
 There could be multiple kinds of hallucination ranging from small factual mistakes or fabricated contact, There are 5 categories of AI hallucination ntrinsic hallucination, xtrinsic hallucination, nput conflict hallucination, ontext conflict hallucination or act conflict hallucination. In this section we will be going through each type.  (Zhang et al., 2023)
@@ -192,25 +174,15 @@ Detecting fact conflict hallucination
 
 There are multiple automatic evaluation methods, FactSore and FactCHD both use external knowledge to detect fact conflict hallucination.
 
-
-
 FactScore
-
-Figure 4 - FactScore (Min et al., 2023)
 
 FactScore adopts a perspective that trustworthiness of a sentences should depend on reliable knowledge source. As shown in figure 4, FactScore checks if information is supported by a large text corpus. Once a text is generated by an LLM, it breaks the texts into smaller chunks and verifies each fact with an external source like Wikipedia. It then gives a score to each chunk of text. As long text consists of many pieces of information that can each be true or false. The score determines the accuracy of the generated information. (Min et al., 2023)
 
 FactCHD
 
-Figure 5 - Factuality pattern overview(Chen et al., 2024)
-
 FactCHD is a large-scale evaluation benchmark tailored for LLMs. The first step is Task formulation where the model detects fact conflict hallucination. The model labels LLM generated responses as factual or non-factual by checking them with external knowledge. As shown in figure 5, Factuality patterns aim to explore patterns of factual errors, it consists of vanilla pattern, multi-hops pattern, comparison pattern and set-operation patters. The Vanilla patters verify generated information with verified established sources, if a generated statement requires connecting multiple pieces of facts, the multi-hop patterns verify generated information from multiple sources. The comparison patters evaluate and compares different facts. The set operation patterns analyse relationship between different facts, manipulates multiple elements and combines them to form a statement. Based on the factually patterns a Query response is generated. The query responses provide a rich structured knowledge for computational reasoning that anchors factual data.
 
 The FactCHD paper also introduces Truth Triangulator that verifies knowledge by cross referencing multiple independent perspectives using the fact verdict manager. As shown in figure 6, The truth triangulator improves detecting fact conflict hallucination in uncontrolled settings. Fact verdict manager comprises of two elements, Truth seeker that looks for information form the external information sources and Truth guardian that relies on the internal knowledge. The fact verdict manager compares the knowledge of the truth guardian with the truth seeker to collect evidence from multiple viewpoints which enhances the reliability and accuracy of the conclusion. (Chen et al., 2024)
-
-Figure 6 – Truth Triangulator overview(Chen et al., 2024)
-
-
 
 Mitigating fact conflict hallucination
 
@@ -225,10 +197,7 @@ Mitigation during Supervised fine training
 It is where the pretrained data is further trained on specific labelled tasks and the model adjusts its parameters according to the tasks. These labels demonstrate the desired output guiding and fine tuning the model. The labellers update the text as 'supported' or 'non supported' giving feedback to the model. (Ouyang et al., 2022)
 
 Mitigation during Reinforced learning
-
-As shown in figure 7, Mitigation during reinforced from human feedback uses Supervised fine training as the first step, then asks the large language model to produce multiple outputs as options. The labellers train the reward model by ranking model generated outputs from best to worst. This optimizes according to human preferences. (Ouyang et al., 2022)
-
-Figure 7 - Reinforcement learning overview(Ouyang et al., 2022)
+ Mitigation during reinforced from human feedback uses Supervised fine training as the first step, then asks the large language model to produce multiple outputs as options. The labellers train the reward model by ranking model generated outputs from best to worst. This optimizes according to human preferences. (Ouyang et al., 2022)
 
 Mitigation from External knowledge
 
@@ -236,17 +205,11 @@ External knowledge can be accessed through retrieval systems, like Retrieval-Aug
 
 RAG system
 
-Figure 8 – Rag system Overview (Lewis et al., 2021)
-
-
-
 A RAG (Retrieval augmented generation) allows transformer model to retrieve information from external unstructured or non-parametric knowledge base. As shown in figure 8, The RAG system consists of a query encoder, a retriever, and a document index. The relevant documents are retrieved from the document index, concatenated as context of the input prompt, and sent to the text generator. The RAG system allows language models to bypass retraining, enabling access to relevant information for reliable output generation and reduces fact conflict hallucination. A limitation of the LLM is that parametric knowledge in LLMs is static using a RAG system, a LLM can access knowledge that the model is not trained on, expanding its knowledgebase. (Lewis et al., 2021)
 
 
 
 LLM Agents
-
-Figure 9 - LLM agent overview (Wang et al., 2024)
 
 As shown in figure 9, An agent uses external sources with large language models for various tasks like profiling, memory, planning, and actions. The profiling module allows LLMs to profile users in subcategories and show relevant information to the specific profiles. Planning modules allow LLMs to create a plan, spilt the plan into various subtasks and execute the plans. The memory module retains its previous behaviours and patterns, consolidates the memory for future uses. Agent is a powerful tool that let LLMs create better results without the need to retrain the model. The agent provides information to the context window of the language model. (Wang et al., 2024)
 
@@ -274,13 +237,9 @@ Dataset alignment method
 
 Agent Profiles are obtained from real word datasets. Information about real humans can be organising in a dataset. The dataset can be connected to a natural language prompt leveraging the dataset to profile the agent. This process aligns the behaviours of the LLM with the real word humans. Encapsulating the attributes of real word population makes the agent behaviour more meaningful. (Wang et al., 2024)
 
-
-
 Memory module
 
 The memory module stores information perceived from the environment and uses the recoded memories to facilitate future actions. The memory module helps the agent accumulate experience, improves consistency and reliability The memory module is further divided into memory structure, memory format and memory operation.(Wang et al., 2024)
-
-
 
 Memory structure
 
@@ -294,15 +253,9 @@ Hybrid memory
 
 Consists of a short term and a long-term memory. The short-term memory contains the context information about the agent's current behaviour and needs of the model. The information provided in the prompt can be considered as the short-term memory. The long-term memory consolidates important information like agents past behaviours and thoughts over time in a vector database which can be retrieved according to the current needs. The vector database encodes embeddings and stores the information of the past memory of the agent in the long-term memory. (Wang et al., 2024)
 
-
-
 Memory format
 
 There are multiple types of memory formats like natural language, embeddings, database, and structured lists. Each memory formats possess distinct strengths and weaknesses. Different memory formats are suitable for various applications. (Wang et al., 2024)
-
-
-
-
 
 Natural language
 
@@ -320,8 +273,6 @@ Structured lists
 
 Memory is organised into organised lists; the semantic meaning is conveyed in a concise manner using hierarchical tree structures. The tree structure encapsulates the relationship between the goals and the plans. (Wang et al., 2024)
 
-
-
 Memory operation
 
 Memory operation allows the agents to extract information from its memory to enhance the agents action. The memory interacts with the environment using the memory reading, writing and reflection. (Wang et al., 2024)
@@ -338,8 +289,6 @@ Memory reflection
 
 Agent capabilities to evaluate its cognitive, emotional, and behavioural processes. The objective of memory reflection is to provide agent with the capabilities to independently summarise abstract high-level information. The agent summarises its past memory into broader and abstract insights by asking key questions and obtain relevant information. Once the information is obtained, the agent generates abstract patterns and replaces all the original elements. (Wang et al., 2024)
 
-
-
 Planning module
 
 Simpler tasks and solving each task individually. This allows the agent to behave more responsibly and reliably. There is planning without feedback where the agent cannot influence decisions after an action is taken and there is planning with feedback that allows agents to create long horizontal plans to solve complex problems. (Wang et al., 2024)
@@ -352,29 +301,15 @@ Single path reasoning
 
 As shown in figure 10, Single path reasoning splits final task into several smaller tasks. Single path reasoning tasks lead to only one subsequent step and follows smaller steps to achieve the final task. Chain of thought and HuggingGPT uses single path reasoning.
 
-
-
-Figure 10 - Overview of single path reasoning. (Wang et al., 2024)
-
 Chain of thought (COT)
 
 COT is one of the most used single path reasoning agents. The first step is to create tasks that lead to only one subsequent step. The chain of thought then provides a window into the behaviour of the model, suggesting how the model arrived at a particular answer and provides opportunities to alter the reasoning path which went wrong. Chain of thought improves the commonsense reasoning abilities of a language model. Chain of though uses LLM Prompts to input few shots example, inspire LLMs to plan and act in steps. (Wei et al., 2022)
 
 HuggingGPT
 
-
-
-Figure 11 – Hugging GPT overview (Shen et al., 2023)
-
 paper describes how ChatGPT can be used as a controller for HuggingFace external knowledge. Hugging face consists of multiple datasets trained in various AI tasks. The first step is to create a task plan, converting the user input into a task list and determining the execution order. Then selecting expert models on the HuggingFace platform based on the tasks. Retrieving information and executing tasks, finally generating a response. HuggingGPT uses ChatGPT as a decoder and the knowledgebase of HuggingFace as an encoder. (Shen et al., 2023)
 
-
-
 Multi path reasoning
-
-
-
-Figure 12 - Overview of multipath reasoning (Wang et al., 2024)
 
 the reasoning step for generating the final plan are organised in a treelike structure. Each decision branches out and may have multiple subsequent steps. Individual steps may have multiple choices at each reasoning step. One of the most used multistep path reasoning is Self-consistent COT.
 
@@ -382,19 +317,11 @@ Self-consistent COT
 
 Self-consistent COT believes that each problem has multiple ways of thinking, so it generates various reasoning paths and answers each branch using the CoT to decide on the most appropriate decision branch. Each nodes represent a thought which corresponds to a reasoning step. This approach resembles human thinking. (He et al., 2023)
 
-
-
 External Planning
 
 LLMs one shot training capabilities are effective but could be unreliable due to hallucination. To address this challenge research, turn to external planners. These tools are efficient search algorithms that identify the optimal plans. LLM+P is one of the external planners. (Wang et al., 2024)
 
-
-
-Figure 12 – LLM+P overview (Liu et al., 2023)
-
 As shown in figure 12, LLM+P creates task description using in context learning abilities of the LLMs. The long horizontal tasks create the plan in planning domain definition language (PDDL) format. The PDDL incorporates two files a domain file and a problem file. The domain file contains the state of the space and the actions with the preconditions and effect of these actions. The problem file states the initial stage and the goal conditions. The generated problem file and domain file is fed into the classic planner. The classic planner is used for creating a sequence of actions. The planning problems formalised are then solved by effective search algorhythms. The search algorhythms use planner as their search keywords to results answers. The results are then sent back to LLM. The LLM translates the results to a textual output. (Liu et al., 2023)
-
-
 
 Planning with feedback
 
@@ -404,13 +331,7 @@ Environmental feedback
 
 Environmental feedback takes feedback form the objective world, for example the ReAct system makes observation from the agent's actions and voyager system uses Minecraft as its environment.
 
-
-
 ReAct (Reason and act)
-
-
-
-Figure 13 – ReAct overview (Yao et al., 2023)
 
 ReAct aims to facilitate reasoning and planning for the agent though thought-act-observation.
 
@@ -420,17 +341,11 @@ Voyager
 
 As shown in figure 14, The Voyager system incorporates three types of environments feedback. Automatic curriculum, the Skill library, and the Iterative prompting mechanism. Automatic curriculum offers many benefits of open-ended exploration fostering a curiosity driven motivation for the agent to learn and explore from an internet scale knowledgebase. The voyager system naturally learns a variety of skills that it adds to its skill library.
 
-Figure 14 - Voyager system overview (Wang et al., 2023)
-
 The iterative prompting mechanism helps the skills in the skill library to improve automatically over time by environmental feedback, execution errors and self-verification of tasks. The three signals help agents make better plans for next actions. making the generated plans adaptive to the environment. (Wang et al., 2023)
-
-
 
 Human feedback
 
 Human feedback Involves taking feedback directly from humans that enhances the agents planning capabilities. This aligns the values and preferences of humans with the agent system. Taking feedback from humans and incorporating it in prompts. Different types of feedback can be combined to enhance the agent's planning capabilities. (Wang et al., 2024)
-
-
 
 Model feedback
 
@@ -438,15 +353,11 @@ Model feedback Involves taking internal feedback from the agent themselves thoug
 
 ChatCoT
 
-Figure 15 – ChatCoT Overview (Chen et al., 2023)
-
-As shown in figure 15, ChatCoT Utilizes model feedback to improve the quality of its reasoning process through multiple rounds of conversations. The model feedback generates reasoning step that helps the model select or invoke a tool for execution. The LLM is provided with tool knowledge in the form of a description of tools and relevant tasks as a few shots example. Then the model is provided with reasons for selecting and executing a tool. (Chen et al., 2023)
+ChatCoT Utilizes model feedback to improve the quality of its reasoning process through multiple rounds of conversations. The model feedback generates reasoning step that helps the model select or invoke a tool for execution. The LLM is provided with tool knowledge in the form of a description of tools and relevant tasks as a few shots example. Then the model is provided with reasons for selecting and executing a tool. (Chen et al., 2023)
 
 Reflexion
 
 Reflexion Enhances the planning though verbal feedback. The agent first produces an action based on its memory. The action is then saved in a verbal format. The textual summary is then added as context for the LLM for the next iteration. This self-reflection acts as a semantic signal that provides the agent with a direction to improve upon itself. (Shinn et al., 2023)
-
-
 
 Action Module
 
@@ -462,8 +373,6 @@ Agent performs various actions like task completion, communication, and environm
 
 5.4.1.3. Environmental exploration the agent explores unfamiliar environments to expand its knowledgebase. Voyager explores unknown skills and continuously refines the skills based on the environment feedback or trial and error. (Wang et al., 2023)
 
-
-
 Action production
 
 The agent takes actions through different strategies and sources this Differs from traditional LLMs where the models input, and output are associated with the actions for the agent. An agent can produce actions via memory recollection or plan following. (Wang et al., 2024)
@@ -471,8 +380,6 @@ The agent takes actions through different strategies and sources this Differs fr
 5.4.2.1. Action via memory recollection the action is generated by extracting recent, relevant, and important information from agents’ memory according to the current task. If an action has been successfully completed, the agent retains that information and invokes the successful action for similar current tasks. The extracted memory is used as prompts to trigger actions. The agent may communicate with other agents to use another agent’s memory to complete a task. (Wang et al., 2024)
 
 5.4.2.2. Action via plan following in this strategy the agent performs actions according to pre generated plans. The agent chooses a plan that has no plan failure signals. The agent solves each subgoals sequentially completing the final task. (Wang et al., 2024)
-
-
 
 Action space
 
@@ -485,8 +392,6 @@ Actions that can be performed by an agent are referred to as action space. Actio
 5.4.3.1.2. Database and knowledge base integrating external databases enables agents to obtain domain specific information that enables the model to generate more realistic actions. Using SQL statements to query databases facilitates realistic actions in a logical manner. (Wang et al., 2024)
 
 5.4.3.1.3. External models can handle complicated tasks easily by corresponding to multiple APIs. TPTU is a model-based task planning that drafts a plan and provides helpful resources to the LLM for completion of a task. There are two types of TPTU, One step Agent (TPTU- OA) and Sequential Agent (TPTU-SA). TPTU-OA breaks down into subtasks in a single instant and performs all subtasks at once. TPTU-SA tackles current subtasks, upon successful resolution, the agent depends on the LLM to provide the next subtasks. With the help of various agents, the model can produce complicated text generation tasks like code generation, producing lyrics etc. (Ruan et al., 2023)
-
-
 
 5.4.3.2. Internal knowledge many agents rely on internal knowledge of LLM to guide their actions. The LLM supports the agent by creating plans through which the agent behaves responsibly and effectively. LLMs internal knowledge enable planning capabilities, Conversational capabilities, and common-sense understanding capabilities. (Wang et al., 2024)
 
@@ -506,23 +411,17 @@ The agent impact is the consequence of the actions of an agent.
 
 5.4.4.3. Triggering new actions Agent actions can trigger another agent action, for example, TPU-SA triggers a subsequent plan only after the first plan of the agent is executed. The execution of the first plan gets updated to the model, triggering a new action. (Ruan et al., 2023)
 
-
-
 5.4.5. Agent capabilities
 
 Agent architecture allows LLMs to perform task, by adding various skills and experiences bridging the gap between LLMs and human preferences. There are various strategies though which agents acquire its capabilities, though fine tuning and capabilities acquired without fine tuning. (Wang et al., 2024)
 
 5.4.5.1. Capabilities with fine tuning Fine tuning enhances agent's capabilities to complete a task efficiently. Fine tuning datasets can be based on human annotation, LLM generated or with real world datasets.
 
-
-
 5.4.5.1.1. Fine tuning with human annotated dataset Researchers, design an annotated task and then recruit workers to complete tasks. The agent understands human preferences though the feedback provided by the recruits. Chain of Hindsight (CoH) uses supervised fine training and Reinforcement learning from human feedback to enhance the performance of large language models, aligning the LLMs with human values and preferences by giving rich detailed feedback in form of natural language. The Agent converts natural language into structured memory efficiently. (Ouyang et al., 2022)
 
 5.4.5.1.2. Fine tuning with LLM generated dataset
 
-Figure 16 – ToolLLaMA overview (Deng et al., 2023)
-
-As shown in figure 16, ToolLLaMA is a fine tuning with LLM generated dataset model, the agents use LLMs for annotation. Using LLM generated datasets can annotate many samples and is more cost effective when compared to human annotation. The drawback of LLM generated datasets are that they are not as reliable as the human feedback fine tuning models. Toolbench consists of API collection, instruction generation and solution path annotation.
+ToolLLaMA is a fine tuning with LLM generated dataset model, the agents use LLMs for annotation. Using LLM generated datasets can annotate many samples and is more cost effective when compared to human annotation. The drawback of LLM generated datasets are that they are not as reliable as the human feedback fine tuning models. Toolbench consists of API collection, instruction generation and solution path annotation.
 
 API collection facilitates 1600+ APIs spanning in 49 categories to integrating various tools to accomplish complex tasks.
 
@@ -532,37 +431,23 @@ The solution path annotation uses Depth first search-based decision tree (DFSDT)
 
 5.4.5.1.3. Fine tuning with real world dataset Directly using real world dataset to fine tune, the agent is also a common strategy. Mind2Web builds a genderized agent that follows language instructions and corresponding tasks to enhance the agent's capabilities in the web domain. Mind2Web can plug into an existing LLM and directly acquire information from a website and carry out actions on HTML based websites. Mind2Web is trained on 137 websites that spans 31 different domains and can perform over 2000 tasks. Mind2Web allows the agents to preform various actions like booking a flight ticket, extract real time weather information. (Deng et al., 2023)
 
-
-
 5.4.5.2. Capabilities without fine tuning There are two methods to unleash agent capabilities prompt engendering and mechanism engineering. Prompt engineering is the process of writing valuable information into prompts to enhance the model capabilities or unleash existing LLM capabilities. Mechanism engineering involves developing specialised modules introducing strategies to enhance agent capabilities.
 
 5.4.5.2.1. Prompt engineering Due to strong language comprehension capabilities of LLMs, People can interact with LLMs using natural language. Users can describe desired capabilities to influence LLM actions. COT empowers agents with the capabilities for complicated task reasoning. By presenting reasoning steps as a few short examples using the prompts. (Wei et al., 2022)
-
-
 
 5.4.5.2.2. Mechanism engineering There are multiple methods mechanism engineering can be performed there is trial and error method, Crowd sourcing, Experience accumulation and Self driven evolution.
 
 5.4.5.2.2.1. Trial and error in this method, the agent performs an action and a predefined critic, judges each action. If the action is unsatisfactory the agent reacts by incorporating the critic's feedback. In RAH, the agent first generates a response then compares it with human feedback. If the predicted response and the human feedback differs then the critic generate a failure response. The failure or success helps fine tune the model. Generating feedback closer to human feedback. (Shu et al., 2024)
 
-
-
-
-
 5.4.5.2.2.2. Crowd sourcing
 
-
-
-Figure 17 – Crowd sourcing overview (Du et al., 2023)
-
-As shown in figure 17, Crowd sourcing Organises debating mechanism that leverages the wisdom of crowds to enhance agent capabilities.
+Crowd sourcing Organises debating mechanism that leverages the wisdom of crowds to enhance agent capabilities.
 
 If their responses are not consistent, they will be prompted to incorporate the solutions from other agents and provide an updated response. This iterative process continues until reaching a final consensus answer. Multi-agent debate is an automatic evaluation method which compares different instances of the same language model, and the final answer generated is more factually accurate and solves reasoning questions more accurately. Round of Debate uses multiple rounds of debate for multiple agents/ instances of the same language model. Compares their knowledge by sharing their response to the other instance/agent, updating the incorrect response in multiple rounds of questions and answers. Agent number is the number of agents or instance of the same language model used to compare knowledge. The number of agents and the number of rounds can be controlled according to the use case. The Study then goes further in explaining how multiple agents' multiple instances of different large language models could be. Comparing knowledge improves the performance of both agents. An LLM agent can offload tasks on behalf of the user. (Du et al., 2023)
 
 5.4.5.2.2.3. Experience accumulation Agents are not given any instructions to do to solve tasks in the beginning, they explore the environment until they successfully accomplish a task. Once a task is successfully accomplished the agent store the methods of completing that task in the memory. If the agent encounters a similar task, then the relevant memories are extracted to complete that task. The designed memory accumulation allows agents to utilities its memory according to the environment feedback and agent self-verification results. (Wang et al., 2023)
 
 5.4.5.2.2.4. Self-driven evolution in this method the agent automatically set goals and gradually improve capabilities by exploring the environment and receive feedback from the reward function. Following this mechanism the agent acquires knowledge and develops capabilities according to its own preferences. (Wang et al., 2024)
-
-
 
 Research Triangulation
 
@@ -576,25 +461,15 @@ Triangulation is a method used to increase the credibility and validity of resea
 
 6.4. Methodological triangulation refers to the use of multiple methods to examine a phenomenon. The assumption is that using multiple data sources, Investigators and methods should result in a single claim because biases naturally cancelled out. This assumption suggests that when triangulation strategy is used, the results will be a converge into a single perspective of a phenomena. However, there might be inconsistency, or the results may be contradictory. Convergence when data from various sources or methods agree the outcomes is convergence. Inconsistency when the data from various sources or methods differ based on the perspective. In other words, the data obtained may not be confirming nor contradicting. Contradictory is when the researcher has incommensurable propositions, in other words when the data from different methods does not converge.  (Mathison, 1988)
 
-
-
 Research question
 
 How to reduce AI hallucination using the principles of research triangulation and LLM agents?
-
-
-
-
 
 Research findings
 
 There are multiple profiling, memory, planning and action strategies and each strategy is suitable for a tasks. It becomes important to understand the most appropriate strategy for a given task to ensure efficiency and reliability.
 
 For example, action via Memory recollection and action via plan following are two different action production methods. Given an identical task, the output for both methods would produce different results. For some tasks, action via memory recollection will produce better results and for others, action via plan following will produce better results. Only after comparing the results of each method would we be able to understand the appropriate method of a task. The Information model aims to determining the best strategy for each task. The information model compares multiple methods and compares knowledge from multiple sources to draw conclusions, using the concept of methodological triangulation aiming to reduce fact conflict hallucination by focusing on hallucination from data and training.
-
-Figure 18 – Information model overview
-
-
 
 Information model
 
@@ -605,12 +480,6 @@ The way a large language model selects the best token, an agent selection system
 It is able to select the best agent using weights. The weights determine the selection of the agent for a specific task. The agents with higher weights are more likely to be selected for a task. As shown in figure 18, The Agents are weighted in three matrices, Task matrix, Category matrix and Library matrix.
 
 The Large language model would continuously update the weights of the library matrix during interface which would gradually make the model select the best agent for each request.
-
-Weights
-
-
-
-Figure 19 – Overview of weight updation
 
 Agent Comparison
 
@@ -646,8 +515,6 @@ Category matrix
 
 The category matrix marks the weights of the agents in 5 categories, 4 static categories planning, memory, action, and profiling and one dynamic category library matrix. The total score of the category matrix is added to the task matrix. Using the agent description, the model checks if an agent can complete the task. An agent may or may not have the capabilities to provide results in all the categories listed in the category matrix. For example, ReAct does not have profiling or memory capabilities while voyager does not have profiling capabilities. It is important to make sure the information model does not provide weights to a category the agent does not operate in. for example the model should not provide weights to Voyagers profiling capabilities. Once the agent categories are selected, the capable agents are asked to provide an output. The outputs are then compared with other agents and depending on the accuracy of the output, weights are provided to each agent. If the agent can output the desired result, the agents’ weights increase for that category.
 
-
-
 Static categories
 
 The static categories planning, memory, action, and profiling would not be updated during interface as they are methods to complete a task. During training once the best method is determined, the model would check and use the weights of the highest weighted agents. For example, a task that benefits from planning without feedback would always show best results using the same method.
@@ -657,10 +524,6 @@ Dynamic category
 The library matrix is a dynamic category as it updates its weights during training and during interface. It is important for the library category to update its weights during interface as the information of the agents may update with time which may alter the selection of the agent. As shown in figure 20, The library category is further divided into subcategories in the library matrix. The subcategories of the library matrix are specified and no new category is added once the categories are specified. The library matrix determines the agent's quality of knowledge. For example, for a task that requires healthcare information, the model will check the weights of the healthcare source and select the agent with the highest weights. The agent with the highest weights would most likely to be selected. The library matrix would compare knowledge of agents against other agents and use crowdsourcing and multiagent debate to come to a single conclusion. A single source with the highest weights may or may not be most suited for the task due to the limitations of the knowledge of one agent. hence it is important for the library category to use multi agent debate to draw a single conclusion from multiple sources. The sum of all libraries is added to the library category in the category matrix providing the category matrix the position of the most desired agents in the matrix.
 
 The library matrix can be used for agents as well as compare different knowledge from multiple RAG systems further expanding the knowledge of the information model.
-
-
-
-Figure 20 – library matrix
 
 Sum of category matrix
 
@@ -681,8 +544,6 @@ During training, the task list in the task matrix would increase. The task may b
 During interface
 
 When a large language model is assigned a task, The assigned task would be compared with similar tasks in the task matrix. The weights of the task most similar to the assigned task would be selected. The comparison can be done with the transformer architecture, by using the query and key matrix as the assigned task and the value matrix as the information model to find similarities between the assigned tasks and the information model tasks. After a similar task is found, the agents with the highest weights would be used during interface. If the task requires the dynamic category, the agents with the highest weights in the library category would be compared using multi agent debate during interface to find the best agent and the weights of the agents would be updated according to the agent’s knowledge during interface, gradually making the library category better with each request.
-
-
 
 Sources
 
