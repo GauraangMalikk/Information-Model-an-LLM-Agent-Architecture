@@ -108,7 +108,7 @@ Each task will trigger multiple rounds of agent responses. Using pairwise Euclid
 	•	Stable agents that consistently align with others
 	•	Divergent agents that require re-prompting or feedback
 
-⚖Agent Weighting System
+Agent Weighting System
 
 Agents will be assigned dynamic weights per task, updated as follows:
 	•	Increase weight if the agent consistently aligns with the majority or human feedback
@@ -125,7 +125,7 @@ When a new task is received:
 	•	Only top-performing agents will be executed, reducing computation cost
 	•	Over time, this evolves into a self-optimizing selection mechanism
 
-🔍 Data Mining and Clustering
+🔍Data Mining and Clustering
 
 All past interactions will be analyzed using:
 	•	Clustering of agent-task embeddings to find performance patterns
