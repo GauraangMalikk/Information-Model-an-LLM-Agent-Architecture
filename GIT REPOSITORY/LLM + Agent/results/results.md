@@ -118,6 +118,7 @@ Domain expert review resolves discrepancies before weight updates.
 Agents in the upper-left quadrant (low complexity, strong combined metric)
 are prime candidates for deployment or ensemble weighting, whereas bottom-right
 outliers may need prompt pruning or architectural tweaks.
+
 ---
 
 ## 8. Key Takeaways
