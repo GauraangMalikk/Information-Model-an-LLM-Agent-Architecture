@@ -98,7 +98,37 @@ Domain expert review resolves discrepancies before weight updates.
 
 ---
 
-## 8. Future Work
+
+## 8. Complexity–Performance Trade-off
+
+| Agent            | Complexity&nbsp;Factor<sup>†</sup> | Combined&nbsp;Metric<br>(avg&nbsp;ED&nbsp;+&nbsp;avg&nbsp;Cos&nbsp;Sim) |
+|------------------|:----------------------------------:|:-----------------------------------------------------------------------:|
+| Inner Monologue  | **1** | 1.30 |
+| LLM4RL           | 1 | 1.25 |
+| ChatCoT          | 2 | 1.25 |
+| TPTU             | 2 | 1.24 |
+| Self-Refine      | 3 | 1.21 |
+| SelfCheck        | 3 | 1.20 |
+| CoT / Zero-Shot CoT / Re-Prompting | 4 | 1.18–1.30 |
+| ReWOO, ToT, HuggingGPT | 5 | 1.00–1.60 |
+| LLM-Planner, ReAct | 6 | 1.23–1.28 |
+| **LLM+P**        | 6 | **1.32** |
+
+<sup>† Lower complexity factor = more concise reasoning steps.</sup>
+
+1. **Negative correlation**: Agents with lower complexity generally show better combined scores (lower ED & higher cosine similarity).  
+2. **Efficient performers**: *Inner Monologue* and *LLM4RL* achieve competitive alignment with minimal reasoning steps.  
+3. **High-complexity outliers**: *LLM+P* adds many planning tokens without a proportional quality gain.  
+4. **Balanced middle**: *Self-Refine* and *SelfCheck* hit a sweet spot—moderate complexity with strong similarity to peer answers.
+
+**Figure 4. Complexity vs. Combined Metric (Task 1)**  
+![Complexity Scatter](../figures/picture5.png)
+
+Agents in the upper-left quadrant (low complexity, strong combined metric)
+are prime candidates for deployment or ensemble weighting, whereas bottom-right
+outliers may need prompt pruning or architectural tweaks.
+
+## 9. Future Work
 
 To move beyond manual evaluation and enable scalable, intelligent agent selection, we propose an automated pipeline that combines prompt iteration, performance tracking, and weight-based agent optimization.
 
