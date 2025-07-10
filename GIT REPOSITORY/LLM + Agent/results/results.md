@@ -89,17 +89,8 @@ Domain expert review resolves discrepancies before weight updates.
 
 ---
 
-## 7. Key Takeaways
 
-1. **Divergence hotspots** (e.g., LLM Planner pairs) highlight agents needing re-prompting.
-2. **Partial agreement pairs** could benefit from retrieval augmentation or shared prompts.
-3. **Convergent clusters** identify reliable agents for consensus generation.
-4. **Iterative feedback**—model-based and human-in-the-loop—is essential for high-stakes applications.
-
----
-
-
-## 8. Complexity–Performance Trade-off
+## 7. Complexity–Performance Trade-off
 
 | Agent            | Complexity&nbsp;Factor<sup>†</sup> | Combined&nbsp;Metric<br>(avg&nbsp;ED&nbsp;+&nbsp;avg&nbsp;Cos&nbsp;Sim) |
 |------------------|:----------------------------------:|:-----------------------------------------------------------------------:|
@@ -127,6 +118,16 @@ Domain expert review resolves discrepancies before weight updates.
 Agents in the upper-left quadrant (low complexity, strong combined metric)
 are prime candidates for deployment or ensemble weighting, whereas bottom-right
 outliers may need prompt pruning or architectural tweaks.
+---
+
+## 8. Key Takeaways
+
+1. **Divergence hotspots** (e.g., LLM Planner pairs) highlight agents needing re-prompting.
+2. **Partial agreement pairs** could benefit from retrieval augmentation or shared prompts.
+3. **Convergent clusters** identify reliable agents for consensus generation.
+4. **Iterative feedback**—model-based and human-in-the-loop—is essential for high-stakes applications.
+
+---
 
 ## 9. Future Work
 
