@@ -32,7 +32,7 @@ This project explores hallucination mitigation in LLMs by:
 | Block | Description |
 |-------|-------------|
 | **A** | System setup, agent execution, DB design, and semantic search |
-| **B** | Multi-agent response evaluation using cosine/Euclidean metrics |
+| **B** | Multi-agent response evaluation using cosine & Euclidean features/metrics |
 | **C** | PCA-reduced task matrix and pairwise score analysis |
 | **D** | Heatmaps of pairwise agent similarity |
 | **E** | Per-agent aggregated metrics across tasks |
