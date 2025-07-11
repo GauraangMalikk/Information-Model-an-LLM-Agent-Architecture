@@ -1,6 +1,6 @@
 # **Future work**
 
-profiling, memory, tools, and action agent components. additionally move beyond manual evaluation and enable scalable, intelligent agent selection, we propose an automated pipeline that combines prompt iteration, performance tracking, and weight-based agent optimization.
+profiling, memory, tools, and action agent components. Additionally move beyond manual evaluation and enable scalable, intelligent agent selection, we propose an automated pipeline that combines prompt iteration, performance tracking, and weight-based agent optimization.
 
 ### 🔁 Multi-Round Prompting & Response Evaluation
 
