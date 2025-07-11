@@ -34,5 +34,5 @@ When a new task is received:
 All past interactions will be analyzed using:
 
 - **Clustering of agent-task embeddings** to find performance patterns  
-- **Association rule mining** to detect which agents are best suited for specific task types  
+- **Association rule mining** to detect which agents are best suited for search, cluster, orannising, extracting, generating or classifying task.  
 - **Trend detection** to anticipate when an agent’s performance is degrading or improving  
