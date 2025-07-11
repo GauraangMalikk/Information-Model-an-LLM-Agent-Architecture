@@ -18,7 +18,7 @@ This system combines agent generation, response storage, planning categorization
 ## ✅ Overview
 
 This project explores hallucination mitigation in LLMs by:
-- Building a **planning-aware agent architecture** with profiling, memory, planning, and action components
+- Building a **planning-aware agent architecture** Future work - profiling, memory, tools, and action components
 - Storing and indexing responses using **semantic vector search (FAISS)**
 - Classifying agent strategies using a **planning taxonomy**
 - Measuring response stability and alignment via **embedding-based pairwise analysis**
