@@ -31,9 +31,9 @@ This project explores hallucination mitigation in LLMs by:
 
 | Block | Description |
 |-------|-------------|
-| **A** | System setup, agent execution, DB design, and semantic search |
+| **A** | LLM setup, Calling multiple planning agent, storing Agent responses in a vector Database (FAISS), setting up structred database and semantic search system for Agent evaluation |
 | **B** | Multi-agent response evaluation using cosine & euclidean distances, response length, completion time as features/metrics |
-| **C** | PCA-reduced task matrix and pairwise score analysis |
+| **C** | PCA-reduced Vector database and pairwise score analysis - interpretable evaluation |  
 | **D** | Heatmaps of pairwise agent similarity |
 | **E** | Per-agent aggregated metrics across tasks |
 | **F** | KMeans clustering of agent pair performance |
