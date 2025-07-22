@@ -51,6 +51,7 @@ Each block is modular and reproducible.
 
 *Information Model Overview – The Information Model: Agent selection and weighting framework across task, category, and library matrices. Supports feedback-based learning and triangulation-based reasoning.*
 [Click here to know more](https://github.com/GauraangMalikk/Information-Model-an-LLM-Agent-Architecture/blob/main/GIT%20REPOSITORY/LLM%20%2B%20Agent/methods/methods.md)
+
 ---
 
 ## ⚙️ Setup & Usage
