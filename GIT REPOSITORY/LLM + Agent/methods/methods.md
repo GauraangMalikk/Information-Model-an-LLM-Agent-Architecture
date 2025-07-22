@@ -6,8 +6,8 @@ This project implements a modular architecture for evaluating hallucination redu
 
 ## 🧠 Information Model Overview 
 
-![Figure 18 – Information Model Overview](https://github.com/GauraangMalikk/Information-Model-an-LLM-Agent-Architecture/blob/main/GIT%20REPOSITORY/LLM%20%2B%20Agent/figures/infomod.png?raw=true)
-*Figure 18 – The Information Model: Multi-layered agent selection framework*
+![Figure – Information Model Overview](https://github.com/GauraangMalikk/Information-Model-an-LLM-Agent-Architecture/blob/main/GIT%20REPOSITORY/LLM%20%2B%20Agent/figures/infomod.png?raw=true)
+*Figure – The Information Model: Multi-layered agent selection framework*
 
 The **Information Model** is a modular control layer that selects the best agent for each task by comparing strategies across profiling, memory, planning, and action. Like how LLMs pick the best token, this model chooses the most appropriate agent using a multi-layered weighting system and triangulation methods.
 
