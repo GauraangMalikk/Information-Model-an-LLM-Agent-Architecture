@@ -45,6 +45,11 @@ This project explores hallucination mitigation in LLMs by:
 
 Each block is modular and reproducible.
 
+### 📊 Figure – Information Model Architecture
+
+![Information Model Overview](https://github.com/GauraangMalikk/Information-Model-an-LLM-Agent-Architecture/blob/main/GIT%20REPOSITORY/LLM%20%2B%20Agent/figures/infomod.png?raw=true)
+
+*Information Model Overview – The Information Model: Agent selection and weighting framework across task, category, and library matrices. Supports feedback-based learning and triangulation-based reasoning.*
 ---
 
 ## ⚙️ Setup & Usage
