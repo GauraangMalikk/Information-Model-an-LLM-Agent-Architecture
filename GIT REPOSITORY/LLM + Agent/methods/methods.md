@@ -4,6 +4,49 @@ This project implements a modular architecture for evaluating hallucination redu
 
 ---
 
+## 🧠 Information Model Overview (Figure 18)
+
+The **Information Model** is a modular control layer that selects the best agent for each task by comparing strategies across profiling, memory, planning, and action. Like how LLMs pick the best token, this model chooses the most appropriate agent using a multi-layered weighting system and triangulation methods.
+
+---
+
+### ⚖️ Multi-Layer Weighting System
+
+1. **Task Matrix**: Tracks agent performance per task.
+2. **Category Matrix**: Includes static (planning, memory, action, profiling) and dynamic (library) strategy weights.
+3. **Library Matrix (Figure 20)**: Evaluates agents’ domain expertise and enables consensus via debate.
+
+---
+
+### 🔁 Weight Updates (Figure 19)
+
+- **Agent Comparison**: Rewards consistent agents, penalizes incorrect ones.
+- **Feedback Loops**: Uses model feedback (e.g., multi-agent voting) and human input for contradiction resolution.
+- **Adaptive Weighting**: Updates influence both category and task matrices.
+
+---
+
+### 🔄 Task Training & Selection
+
+- Similar tasks are grouped via **Frequent Pattern Analysis**
+- Agent-task matching is refined through repeated trials
+- Transformer QKV logic finds the best agents during inference
+
+---
+
+### 🔎 Triangulation to Reduce Hallucination
+
+- **Investigator** = multiple agents
+- **Method** = different strategies (e.g., planning types)
+- **Data** = different sources or RAG systems
+- **Methodological** = combining all the above
+
+> 🧩 Inspired by Mathison (1988), triangulation ensures more reliable, hallucination-resistant outputs.
+
+
+---
+
+
 ## Block A: AI Agent Architecture – Planning, Storage, and Retrieval
 
 ### A.1. Import Libraries & Setup
