@@ -18,7 +18,7 @@ The **Information Model** is a modular control layer that selects the best agent
 
 ---
 
-### 🔁 Weight Updates (Figure 19)
+### 🔁 Weight Updates 
 
 - **Agent Comparison**: Rewards consistent agents, penalizes incorrect ones.
 - **Feedback Loops**: Uses model feedback (e.g., multi-agent voting) and human input for contradiction resolution.
