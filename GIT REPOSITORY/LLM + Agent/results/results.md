@@ -41,11 +41,11 @@ Visual inspection reveals three clusters:
 
 **Figure 1. Cosine Similarity Heat Map**  
 _Dark red = high similarity; blue = low similarity_  
-![Cosine Similarity Heat Map](../figures/Picture1.png)
+![Cosine Similarity Heat Map](../figures/Picture2.png)
 
 **Figure 2. Euclidean Distance Heat Map**  
 _Light = small distance; dark = large distance_  
-![Euclidean Distance Heat Map](../figures/Picture2.png)
+![Euclidean Distance Heat Map](../figures/Picture1.png)
 
 ---
 
