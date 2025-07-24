@@ -17,7 +17,7 @@ The **Information Model** is a modular control layer that selects the best agent
 
 1. **Task Matrix**: Tracks agent performance per task.
 2. **Category Matrix**: Includes static (planning, memory, action, profiling) and dynamic (library) strategy weights.
-3. **Library Matrix (Figure 20)**: Evaluates agents’ domain expertise and enables consensus via debate.
+3. **Library Matrix**: Evaluates agents’ domain expertise and enables consensus via debate.
 
 ---
 
