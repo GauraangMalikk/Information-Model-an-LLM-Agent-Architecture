@@ -1,0 +1,20 @@
+Task,Agent,Model,Total Score
+climate_change,Tree-of-Thought (ToT),qwen3.5:4b,0.8307103514671326
+climate_change,Zero-Shot CoT,qwen3.5:4b,1.0190784931182861
+climate_change,LLM+P,qwen3.5:4b,0.8671350479125977
+creative_story,Chain of Thought (CoT),qwen3.5:4b,1.0341638326644897
+creative_story,ChatCoT,qwen3.5:4b,0.9928510189056396
+creative_story,Tree-of-Thought (ToT),qwen3.5:4b,0.9893220067024231
+delivery_route,SelfCheck,qwen3.5:4b,0.2595561444759369
+delivery_route,Tree-of-Thought (ToT),qwen3.5:4b,0.16195383667945862
+delivery_route,Zero-Shot CoT,qwen3.5:4b,0.15312734246253967
+machine_learning,Inner Monologue,qwen3.5:4b,0.1640356034040451
+machine_learning,Re-Prompting,qwen3.5:4b,0.19561412930488586
+machine_learning,Tree-of-Thought (ToT),qwen3.5:4b,0.8024035692214966
+quantum_computing,Re-Prompting,qwen3.5:4b,1.3930288553237915
+quantum_computing,Zero-Shot CoT,qwen3.5:4b,1.5153570175170898
+quantum_computing,HuggingGPT,qwen3.5:4b,1.3723645210266113
+quantum_computing,ReWOO,qwen3.5:4b,1.586761236190796
+quantum_computing,Chain of Thought (CoT),qwen3.5:4b,1.5035138130187988
+quantum_computing,Tree-of-Thought (ToT),qwen3.5:4b,1.1823835372924805
+quantum_computing,LLM-Planner,qwen3.5:4b,1.5397045612335205

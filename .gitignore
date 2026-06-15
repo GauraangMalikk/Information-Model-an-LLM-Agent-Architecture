@@ -1,0 +1,33 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Python/Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Logs and local database/runtime artifacts
+*.log
+results/executed_queries.log
+*.db
+*.sqlite
+*.sqlite3
+
+# External cloned repositories kept locally for reference
+autogen/
+code2prompt/
+Multi-Agents-Debate/
+
+# Hugging Face Space is maintained as its own repo
+demo/

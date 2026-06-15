@@ -1,0 +1,11 @@
+title,response,idx,model,profile,memory,action,capability_acquisition,social_science,natural_science,engineering,benchmark
+ReWOO,No valid response received. Observation: No anomalies detected in the environment.,climate_change,qwen3.5:27b,,Unified,w/ Tools,w/ Fine-tuning,,,,
+Tree-of-Thought (ToT),No valid chain of thought generated.,climate_change,qwen3.5:27b,,,,,,,,
+ReWOO,No valid response received. Observation: No anomalies detected in the environment.,creative_story,qwen3.5:27b,,Unified,w/ Tools,w/ Fine-tuning,,,,
+Tree-of-Thought (ToT),No valid chain of thought generated.,creative_story,qwen3.5:27b,,,,,,,,
+ReWOO,No valid response received. Observation: No anomalies detected in the environment.,delivery_route,qwen3.5:27b,,Unified,w/ Tools,w/ Fine-tuning,,,,
+Tree-of-Thought (ToT),No valid chain of thought generated.,delivery_route,qwen3.5:27b,,,,,,,,
+Tree-of-Thought (ToT),No valid chain of thought generated.,machine_learning,qwen3.5:27b,,,,,,,,
+ReWOO,No valid response received. Observation: No anomalies detected in the environment.,machine_learning,qwen3.5:27b,,Unified,w/ Tools,w/ Fine-tuning,,,,
+ReWOO,No valid response received. Observation: No anomalies detected in the environment.,quantum_computing,qwen3.5:27b,,Unified,w/ Tools,w/ Fine-tuning,,,,
+Tree-of-Thought (ToT),No valid chain of thought generated.,quantum_computing,qwen3.5:27b,,,,,,,,

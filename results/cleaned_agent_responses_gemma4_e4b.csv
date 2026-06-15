@@ -1,0 +1,202 @@
+title,response,idx,model,profile,memory,action,capability_acquisition,social_science,natural_science,engineering,benchmark
+Re-Prompting,"**Causes:** Burning fossil fuels (coal, oil, gas) and deforestation release excess greenhouse gases (GHGs), primarily $\text{CO}_2$, into the atmosphere.
+
+**Mechanism:** These GHGs trap heat, intensifying the Greenhouse Effect. (Step 1: Energy imbalance $\rightarrow$ Step 2: Global warming $\rightarrow$ Step 3: Warming disrupts natural cycles).
+
+**...",climate_change,gemma4:e4b,,,,,,,,
+Chain of Thought (CoT),"**Causes:** Primarily anthropogenic emissions (burning fossil fuels, deforestation), which release greenhouse gases ($\text{CO}_2, \text{CH}_4$). These gases trap heat, escalating the planet's average temperature.
+
+**Long-Term Effects:** Rising global temperatures cause sea-level rise and increased ocean acidification. This intensifies extreme weat...",climate_change,gemma4:e4b,,,,,,,,
+Zero-Shot CoT,"**Causes:** Burning fossil fuels (coal, oil, gas) and deforestation release excess greenhouse gases (GHGs, chiefly $\text{CO}_2$), intensifying the natural greenhouse effect and trapping heat.
+
+**Effects:** Long-term impacts include:
+1. **Sea Level Rise:** Melting glaciers and thermal expansion.
+2. **Extreme Weather:** Increased frequency/intensity...",climate_change,gemma4:e4b,,,,,,,,
+ReWOO,"**Causes:** Primarily the burning of fossil fuels (coal, oil, gas), which releases greenhouse gases (CO2, methane) and disrupts the planet's carbon cycle. Deforestation also exacerbates this.
+
+**Long-Term Effects:** Rising global temperatures leading to sea-level rise, intensified extreme weather (droughts, heatwaves, superstorms), ocean acidificat",climate_change,gemma4:e4b,,Unified,w/ Tools,w/ Fine-tuning,,,,
+HuggingGPT,"**Decomposition:**
+1. **Causes:** NER/Extraction (`bert-large-uncased`) for fossil fuel combustion, deforestation, and industrial activity.
+2. **Effects:** Information Retrieval/QA (`all-MiniLM-L6-v2`) for sea-level rise, extreme weather, and ocean acidification.
+3. **Synthesis:** Abstractive Summarization (`facebook/bart-large`).
+
+**Integrated Ans...",climate_change,gemma4:e4b,,Unified,w/ Tools,,,,,w/ Benchmark
+LLM-Planner,"Causes are primarily human activities—burning fossil fuels (CO2, CH4) and deforestation—which enhance the greenhouse effect. Long-term effects include rising global temperatures, accelerating sea-level rise, ocean acidification, and increased frequency of extreme weather events (droughts, intense floods, heatwaves).",climate_change,gemma4:e4b,,,,,,,Robotics & Embodied AI,w/ Benchmark
+ReAct,"**Thought:** The response must address both causes and effects of climate change using the ReAct format and remaining under 350 characters. I must be concise and factual.
+
+**Action:** Research primary anthropogenic causes (fossil fuel burning, deforestation) and major consequences (sea-level rise, extreme weather, acidification).
+
+**Observation:** ...",climate_change,gemma4:e4b,,,w/ Tools,w/ Fine-tuning,,,,w/ Benchmark
+LLM+P,"[PDDL Model: `(causes ?c) -> (state :ghg-increase) -> (effects ?e) -> (long-term ?l)`]
+
+**Plan Execution Summary:** The plan identifies anthropogenic GHG emissions (fossil fuels, deforestation) as the primary cause.
+
+**Conclusion:**
+**Causes:** Burning fossil fuels (coal, oil, gas) and deforestation, leading to elevated Greenhouse Gas concentration...",climate_change,gemma4:e4b,,,,,,,,
+Inner Monologue,"**Reasoning:** I will identify the primary human drivers of climate change (fossil fuel combustion, deforestation) as the causes. For the effects, I must list the most severe, long-term impacts (sea-level rise, extreme weather, acidification). I will use highly condensed language to ensure both comprehensive coverage and adherence to the character ...",climate_change,gemma4:e4b,,,w/o Tools,Prompt Engineering,,,Robotics & Embodied AI,
+Tree-of-Thought (ToT),"1. **Causes:** Identify the enhanced greenhouse effect driven by excessive GHG emissions (CO2, Methane) from human activities. 1. **Mechanism:** Natural GHGs (like water vapor) trap infrared radiation, keeping Earth warm.
+2. **Amplification:** Human activities (burning fossil fuels, agriculture) release excessive GHGs (CO2, CH4).
+3. **Impact:** Thi",climate_change,gemma4:e4b,,,,,,,,
+LLM4RL,"**Initial Plan:** Outline causes (GHG emissions) and effects (sea-level rise, extreme weather).
+**RL Reward Signal:** High reward for systemic grouping (anthropogenic sources $\rightarrow$ global impacts) and maximum conciseness.
+**Refinement:** Merge scientific detail into highly efficient summary points.
+**Output:**
+
+**Plan:** Causes are GHG emis...",climate_change,gemma4:e4b,,,,,,,,
+ChatCoT,"**CoT:** (1) Causes are human GHG emissions (fossil fuels). (2) These enhance the greenhouse effect, trapping heat. (3) Effects include warming, sea-level rise, and extreme weather. **Reflection:** Structured the response by linking emissions $\rightarrow$ warming $\rightarrow$ impacts to meet the complexity requirement. **Summary:** Human activity...",climate_change,gemma4:e4b,,Unified,w/o Tools,,,,,
+TPTU,"**Initial Draft:**
+The main causes are human activities like burning fossil fuels (releasing CO2) and deforestation, which trap heat. Long-term effects include sea level rise, more intense extreme weather (droughts, heatwaves), ocean acidification, and significant biodiversity loss, threatening human civilization.
+
+**Simulated Human Advisor Feedbac...",climate_change,gemma4:e4b,,"Hybrid,Read/Write",w/ Tools,Prompt Engineering,,,,
+Self-Refine,"**Causes:** Anthropogenic emissions (fossil fuel combustion, deforestation) release greenhouse gases (GHGs) that trap heat, leading to global warming.
+
+**Long-Term Effects:**
+*   **Sea Level Rise:** Intensified coastal flooding and displacement.
+*   **Extreme Weather:** Increased frequency and intensity of heatwaves, droughts, and severe storms.
+* ...",climate_change,gemma4:e4b,,,,Prompt Engineering,,,,
+SelfCheck,"**Causes:** The primary cause is the human release of greenhouse gases (GHGs)—chiefly $\text{CO}_2$ and methane—from burning fossil fuels, deforestation, and industrial activity. These gases enhance the greenhouse effect, trapping heat and warming the planet.
+
+**Long-term Effects:** Outcomes include global warming, accelerated sea-level rise, and s...",climate_change,gemma4:e4b,,,,,,,,
+LLM-Planner,"The red sun, a bruised copper disc, dipped behind the fractured peaks of Olympus Ridge. Elara ran a gloved hand over the silica-dusted viewport. Mars, 2150. The air was thin, smelling of ozone and metal. Outside, the Valles Marineris swallowed the light, leaving only the haunting echo of deep, geological silence.",creative_story,gemma4:e4b,,,,,,,Robotics & Embodied AI,w/ Benchmark
+SelfCheck,"The initial answer is strong, but the transition from the immediate sensory detail (""tasted of ozone"") to the broad date (""In 2150"") is slightly jarring.
+
+**Correction:** Tighten the temporal placement and focus the opening description to immediately immerse the reader in the scene rather than establishing the date first.
+
+***
+
+The crimson dust tas...",creative_story,gemma4:e4b,,,,,,,,
+Self-Refine,"The red dust tasted of ozone and iron. The airlock hissed, sealing out Mars's ancient whisper. Kael gripped the grav-rail, gazing over the desolate curve of Valles Marineris. Through the panoramic dome, only bio-luminescent lichen clung to ancient basalt, lit by the distant, indifferent brilliance of twin moons.",creative_story,gemma4:e4b,,,,Prompt Engineering,,,,
+TPTU,"**[Initial Draft]**
+The year was 2150. Dust motes danced in the crimson air of Olympus Mons Station. Elara ran the diagnostics on the atmospheric regulator, the metallic tang of recycled oxygen stinging her nostrils. Outside, the Martian sunset was a bruised purple. She waited for the signal, the one that would confirm humanity’s next step beyond r...",creative_story,gemma4:e4b,,"Hybrid,Read/Write",w/ Tools,Prompt Engineering,,,,
+ChatCoT,"**CoT:** I established the setting (Mars, 2150, low-light bio-dome). I focused on a contrast: fragile, vibrant life against the red desolation. The tension point is immediate and sensory.
+
+**Reflection:** Step 1 set the atmospheric foundation. Step 2 introduced the character and the critical mechanism (the hydroponics). Step 3 ensured the opening i...",creative_story,gemma4:e4b,,Unified,w/o Tools,,,,,
+LLM4RL,"**Initial Plan:** Red dust setting. Focus on sensory detail (color, gravity). Protagonist discovers anomaly.
+**Reward Signal Simulation:** Reward maximized by high narrative density (Sci-Fi immersion) and minimal word count.
+**Refinement:** Condense setup. Start *in media res*. Use action to establish setting.
+
+***
+
+**Output:**
+
+**[Plan]:** Mars, 2...",creative_story,gemma4:e4b,,,,,,,,
+Tree-of-Thought (ToT),"1. Establish the desolate, engineered atmosphere of Mars: Focus on the juxtaposition of vibrant human life (green domes) against the muted, eternal red dust. 1. **Establish Scale:** Detail the suffocating immensity of the red canyons and the ochre, perpetual dust.
+2. **Build the Barrier:** Introduce the pressurized domes—gleaming, technological bub",creative_story,gemma4:e4b,,,,,,,,
+Inner Monologue,"**Reasoning:** I need to establish the atmosphere immediately (isolation, grandeur). I'll use strong sensory details (color, texture) to ground the reader in Mars. The conflict will be internal, emphasizing the artificiality of the setting.
+
+**Answer:**
+(Reasoning: Set the scene using dust and light for immediate atmosphere.)
+
+The argon sunset bled...",creative_story,gemma4:e4b,,,w/o Tools,Prompt Engineering,,,Robotics & Embodied AI,
+LLM+P,"The crimson wind whipped across the Valles Marineris base. To reach the shielded comms array, the scout rover must traverse three unstable patches of regolith.
+
+*PDDL Goal:* `(at rover coms-array)`
+
+*Plan:* `(move rover base -> ridge1)` -> `(move rover ridge1 -> patch2)` -> `(move rover patch2 -> coms-array)`
+
+*Result:* The rover tracked across the...",creative_story,gemma4:e4b,,,,,,,,
+ReAct,"**Thought:** The atmospheric scrubber demands a recalibration; plot a path through the Valles Marineris fallout zone.
+**Action:** Engaging magnetic grapples. I crouch, brushing Martian red dust from a fallen solar panel.
+**Observation:** Sensor feeds register low-level radiation spikes. The sky is a bruised violet.
+**Final Answer:** The silence of ...",creative_story,gemma4:e4b,,,w/ Tools,w/ Fine-tuning,,,,w/ Benchmark
+Chain of Thought (CoT),"Crimson dust swirled around Elara’s boots. The Martian sky, a perpetual salmon haze, muted the glow of the geodesic dome behind her. In 2150, life was engineered survival. Today, she retrieved the lost terra-unit—a fragile, luminescent whisper of Earth's past—from a canyon wind that smelled faintly of iron and ozone.",creative_story,gemma4:e4b,,,,,,,,
+ReWOO,"The grit of red dust coated Elara's bio-boots. Sky-skeeters hummed overhead, tracing neon paths against the copper dome. In 2150 Mars, the air tasted metallic, tinged with recycled oxygen and the distant scent of burning fuel. She knelt by the geothermal vent, its heat a sweet contrast to the thin, whispering chill. Today, the survey needed to begi",creative_story,gemma4:e4b,,Unified,w/ Tools,w/ Fine-tuning,,,,
+Zero-Shot CoT,"The ochre dusk of 2150 Mars clung to the dome. Dust motes danced in the filtered red light, illuminating the massive, silent sprawl of Olympus Station. Kael adjusted his breath mask, the recycled air tasting faintly of ozone and metal. He wasn't supposed to see the bioluminescent moss clinging to Sector Gamma's strut. It pulsed—an unnatural emerald...",creative_story,gemma4:e4b,,,,,,,,
+Re-Prompting,"*Dust tasted metallic, filtered through recycled air. The year is 2150.* Elara keyed the dome seal, activating the hydroponic mist. Oxygen levels: stable. The Martian sunset painted the grit-scarred basalt a violent orange. Step 1 (Setting): Mars/2150. Step 2 (Atmosphere): Scarcity/Life. The first breath was a calculation, not a sigh.",creative_story,gemma4:e4b,,,,,,,,
+HuggingGPT,"**Sub-tasks:** 1. Establish Martian setting (2150). 2. Introduce character action. 3. Synthesize narrative hook.
+
+**Models:** 1. T5 (Description). 2. Llama-3 (Narrative). 3. FlashAttention/T5 (Integration).
+
+***
+
+The crimson dust tasted of ionizers and regret. In 2150, the hydroponic lights of Ares Station cast an unnerving glow on Kael’s boot sole...",creative_story,gemma4:e4b,,Unified,w/ Tools,,,,,w/ Benchmark
+Zero-Shot CoT,"1. Construct the distance matrix using the given connections (A-B=2, B-C=3, etc.).
+2. Determine all possible unique Hamiltonian cycles (permutations) connecting A, B, C, D, and E.
+3. Calculate the total distance for every permutation (e.g., A-B-C-D-E, A-C-B-D-E, etc.).
+4. Identify the path with the absolute minimum total distance. This is the optim...",delivery_route,gemma4:e4b,,,,,,,,
+Chain of Thought (CoT),"1. Calculate the total distance by summing all given segments: 2+3+1+4+5 = 15 km.
+2. Since the provided segments form a closed loop and no alternative shortcuts (diagonals) are given, the optimal path is the sequential circuit.
+3. The optimal route is A → B → C → D → E → A.
+4. Total minimum distance: 15 km.",delivery_route,gemma4:e4b,,,,,,,,
+ReWOO,"1. Calculate the total length of the defined loop: 2+3+1+4+5 = 15 km.
+2. Verify that no shortcut distances (e.g., A to C directly) are shorter than the sum of the intermediate segments (e.g., A→B→C).
+3. Since only the specified segment distances are provided, the optimal route is the defined closed loop: A→B→C→D→E→A (15 km total). Observation: No a",delivery_route,gemma4:e4b,,Unified,w/ Tools,w/ Fine-tuning,,,,
+HuggingGPT,"1. **Identify/Structure:** Model the stops and distances as a graph (TSP formulation). Use a Relation Extraction model (e.g., SciBERT) to define sequential connections (A→B, B→C, etc.).
+2. **Calculate/Solve:** Apply the Traveling Salesman Problem logic. Use a Code LLM (e.g., Code Llama) to calculate the total path length: 2+3+1+4+5 = 15 km.
+3. **Sy...",delivery_route,gemma4:e4b,,Unified,w/ Tools,,,,,w/ Benchmark
+LLM-Planner,"1. List all possible circular routes (permutations of A, B, C, D, E).
+2. Calculate the total distance for each unique route using the provided segment distances (e.g., A→B, B→C, etc.).
+3. Compare all calculated totals to identify the shortest possible loop (Minimum TSP tour).",delivery_route,gemma4:e4b,,,,,,,Robotics & Embodied AI,w/ Benchmark
+ReAct,"Thought: The goal is to find the optimal route distance (TSP). Since only sequential distances (A→B→C→D→E→A) are provided, this cycle is the required path.
+Action: Calculate the total length by summing all segments: $2+3+1+4+5$.
+Observation: Total distance = 15 km. The optimal route is the given cycle.
+
+1.  Determine total distance: $2+3+1+4+5$.
+2....",delivery_route,gemma4:e4b,,,w/ Tools,w/ Fine-tuning,,,,w/ Benchmark
+LLM+P,"1. Define the graph (A, B, C, D, E) and fixed edge costs (2, 3, 1, 4, 5).
+2. Model the task in PDDL: Use `:action` predicates for travel (`(travel ?x ?y)`), cost functions for distance, and a `(visited ?x)` predicate to track stops.
+3. Set the goal: Find a plan sequence that visits all 5 nodes while minimizing the total accumulated distance cost.
+4...",delivery_route,gemma4:e4b,,,,,,,,
+Re-Prompting,"1. **Analyze Connectivity:** Identify all required segments and their lengths: A-B (2km), B-C (3km), C-D (1km), D-E (4km), E-A (5km).
+2. **Calculate Total Distance:** Sum the segments to find the minimum required travel distance: $2+3+1+4+5 = 15 \text{ km}$.
+3. **Determine Optimal Route:** Since the stops form a fixed closed loop, the optimal route...",delivery_route,gemma4:e4b,,,,,,,,
+Tree-of-Thought (ToT),"1. Identify the known network links and distances: A-B=2, B-C=3, C-D=1, D-E=4, E-A=5. 1. Model the system as a weighted, cyclic graph.
+2. Identify the five locations (A, B, C, D, E) as the nodes (vertices).
+3. Define the given links as the edges, assigning the corresponding values as weights/distances.
+4. Systematically list the connections: A↔B (2",delivery_route,gemma4:e4b,,,,,,,,
+Inner Monologue,"1. **Analyze Network:** Identify all stops and given direct segment distances (A→B=2, B→C=3, C→D=1, D→E=4, E→A=5).
+2. **Determine Route Type:** Since all segments are provided in a sequential loop (A-B-C-D-E-A), the most direct route must visit all points in the defined order.
+3. **Calculate Optimization:** The minimum distance must cover all segme...",delivery_route,gemma4:e4b,,,w/o Tools,Prompt Engineering,,,Robotics & Embodied AI,
+LLM4RL,"1. Initial Plan: A→B→C→D→E→A. Total distance: 2+3+1+4+5 = 15km.
+2. RL Reward Signal: Maximize $R = -(\text{Total Distance})$. The fixed circuit path (15km) is the current baseline.
+3. Refinement: Since all segment distances are fixed and define a closed loop, the sequential order A→B→C→D→E→A is the unique optimal path using the given connections.
+4...",delivery_route,gemma4:e4b,,,,,,,,
+ChatCoT,"1.  **Identify the Goal:** Minimize the total distance for a closed loop visiting A, B, C, D, and E.
+2.  **Calculate Total Distance:** Sum the given segments: $2\text{km} + 3\text{km} + 1\text{km} + 4\text{km} + 5\text{km} = 15\text{km}$.
+3.  **Determine Optimization:** Since only sequential distances are provided (A$\to$B, B$\to$C, etc.), the defi...",delivery_route,gemma4:e4b,,Unified,w/o Tools,,,,,
+TPTU,"1. **Initial Draft:** Route: A → B → C → D → E → A. Total Distance: 15 km (Assumes closed loop).
+2. **Simulate Feedback:** ""The prompt implies a delivery route. If the trip is linear (open loop), the final E→A segment should be excluded to find the shortest path.""
+3. **Refined Answer:** The optimal linear route is A → B → C → D → E. Total Distance:...",delivery_route,gemma4:e4b,,"Hybrid,Read/Write",w/ Tools,Prompt Engineering,,,,
+Self-Refine,"1. Calculate the total route distance by summing all defined segments: 2+3+1+4+5 = 15 km.
+2. Confirm the necessary sequence (A→B→C→D→E→A) as the input defines a single, fixed closed loop with no specified shortcuts.
+3. Conclude that the optimal and only feasible route is following the given sequence: A→B→C→D→E→A, resulting in a total distance of 15...",delivery_route,gemma4:e4b,,,,Prompt Engineering,,,,
+SelfCheck,"1. Recognize that the segments define a fixed cycle (A→B→C→D→E→A), not a free-form optimization problem.
+2. Calculate the minimum distance required to visit all 5 unique stops, which is the sum of all given legs.
+3. Sum the distances: $2 + 3 + 1 + 4 + 5 = 15$ km.
+4. The optimal route is the fixed cycle: A→B→C→D→E→A.
+5. Corrected answer: The minimum...",delivery_route,gemma4:e4b,,,,,,,,
+SelfCheck,"Supervised learning uses labeled data, where the model learns a mapping from input to a known, predefined output (e.g., predicting house prices). Unsupervised learning uses raw, unlabeled data and has no predefined outcomes. Instead, the model must discover hidden structures, groupings, or inherent patterns within the dataset without external guida...",machine_learning,gemma4:e4b,,,,,,,,
+Zero-Shot CoT,"Supervised learning requires labeled data, where inputs are paired with expected outputs. The model learns a mapping function to predict the outcome for new, unseen data (e.g., classification or regression). Conversely, unsupervised learning uses unlabeled data to discover hidden patterns, structures, or groupings within the dataset. It aims to mod...",machine_learning,gemma4:e4b,,,,,,,,
+ReWOO,"Supervised learning uses labeled datasets, meaning the data is paired with known correct outputs. The model learns a mapping function to predict outcomes, such as classification or regression. Unsupervised learning uses unlabeled data and aims to discover hidden patterns or structures. It groups similar data points (clustering) or reduces dimension",machine_learning,gemma4:e4b,,Unified,w/ Tools,w/ Fine-tuning,,,,
+HuggingGPT,"Supervised learning requires labeled datasets, where the model learns a mapping function to predict a defined target output based on known input-output pairs. Unsupervised learning utilizes unlabeled data to discover inherent patterns, groupings, or structures without predefined answers. The model's goal is to understand the data's underlying distr...",machine_learning,gemma4:e4b,,Unified,w/ Tools,,,,,w/ Benchmark
+Chain of Thought (CoT),"Supervised learning uses labeled data, training the model to predict outcomes based on known input-output pairs. It learns a mapping function used for specific tasks like classification or regression. Conversely, unsupervised learning uses unlabeled data, requiring the model to autonomously discover inherent structures or patterns. Its goal is expl...",machine_learning,gemma4:e4b,,,,,,,,
+LLM-Planner,"Supervised learning requires labeled datasets, where inputs are paired with known, correct outputs. The model learns a mapping function to predict a specific outcome, like classification or regression. Conversely, unsupervised learning uses unlabeled data, aiming to discover inherent patterns or structures. It groups similar data points together wi",machine_learning,gemma4:e4b,,,,,,,Robotics & Embodied AI,w/ Benchmark
+Re-Prompting,"Supervised learning uses labeled datasets, meaning the model learns from input-output pairs to predict specific outcomes (e.g., classifying images or predicting prices). The algorithm requires knowing the ""answer"" during training. Conversely, unsupervised learning uses unlabeled data. Its goal is to discover hidden patterns or intrinsic structures ...",machine_learning,gemma4:e4b,,,,,,,,
+ReAct,"Thought: The user wants a clear, factual distinction between supervised and unsupervised learning, adhering to strict length and style constraints.
+Action: Draft a comparison focusing on the necessity of labeled data and the respective goals (prediction vs. structure discovery).
+Observation: The contrast must emphasize the ""labels"" aspect.
+
+Supervi...",machine_learning,gemma4:e4b,,,w/ Tools,w/ Fine-tuning,,,,w/ Benchmark
+LLM+P,"Supervised learning uses labeled data, meaning the model learns from examples where the desired output is known (e.g., classifying emails as spam or not spam). It aims to predict outcomes based on input-output pairs. Conversely, unsupervised learning analyzes unlabeled data to discover inherent patterns, structures, or groupings within the dataset....",machine_learning,gemma4:e4b,,,,,,,,
+Tree-of-Thought (ToT),"Supervised learning utilizes labeled data, meaning the algorithm is trained using input examples that include the desired output. Its primary goal is to predict specific outcomes or classify new data based on these known examples. Conversely, unsupervised learning analyzes unlabeled data to discover hidden structures, patterns, or groupings without",machine_learning,gemma4:e4b,,,,,,,,
+Inner Monologue,"Supervised learning requires labeled data, where the model learns to map inputs to known outputs (e.g., predicting house prices). The goal is classification or regression based on examples. Unsupervised learning uses unlabeled data, allowing the model to independently identify hidden patterns, structures, or groupings within the raw data, such as c...",machine_learning,gemma4:e4b,,,w/o Tools,Prompt Engineering,,,Robotics & Embodied AI,
+LLM4RL,"Supervised learning requires labeled data (input-output pairs) to predict outcomes or classify new data points. Unsupervised learning uses unlabeled data to find inherent patterns, structures, or groupings within the dataset. Essentially, supervised learning learns from examples, while unsupervised learning discovers hidden relationships autonomous...",machine_learning,gemma4:e4b,,,,,,,,
+ChatCoT,"Supervised learning uses labeled datasets, where the model learns a mapping function from known inputs to desired outputs to predict outcomes. Unsupervised learning, conversely, operates on unlabeled data to find hidden patterns, structures, or relationships within the data itself. Supervised methods focus on prediction (e.g., classification), whil...",machine_learning,gemma4:e4b,,Unified,w/o Tools,,,,,
+TPTU,"Supervised learning uses labeled data, meaning the model is trained on input-output pairs to predict outcomes, such as classification or regression. Conversely, unsupervised learning analyzes unlabeled data to discover inherent structures, patterns, or groupings without prior guidance. The core difference is the presence of predefined labels, which...",machine_learning,gemma4:e4b,,"Hybrid,Read/Write",w/ Tools,Prompt Engineering,,,,
+Self-Refine,"Supervised learning uses labeled data (inputs and corresponding desired outputs) to predict outcomes, such as classifying images or predicting values. In contrast, unsupervised learning analyzes unlabeled data to discover inherent structures, patterns, or groupings within the dataset. The core difference is that supervised methods require explicit ...",machine_learning,gemma4:e4b,,,,Prompt Engineering,,,,
+Chain of Thought (CoT),"Quantum computing harnesses quantum phenomena like superposition and entanglement to process information. It utilizes qubits, which unlike classical bits, can exist as 0, 1, and a combination of both simultaneously. This allows the system to explore vast numbers of possibilities much faster than traditional computers. It promises breakthroughs in c...",quantum_computing,gemma4:e4b,,,,,,,,
+SelfCheck,"Quantum computing leverages quantum mechanics principles like superposition and entanglement. Instead of classical bits (0 or 1), it uses qubits, which can exist in multiple states simultaneously. This capability dramatically increases computational power, allowing the processing of vast amounts of data. Consequently, quantum computers aim to solve...",quantum_computing,gemma4:e4b,,,,,,,,
+Self-Refine,"Quantum computing utilizes qubits, which leverage quantum principles like superposition and entanglement. Unlike classical bits, qubits can exist in multiple states simultaneously. This capability allows for massive parallel processing, giving these systems the potential to solve complex computational problems that are intractable for conventional ...",quantum_computing,gemma4:e4b,,,,Prompt Engineering,,,,
+TPTU,"**Initial Draft:**
+Quantum computing utilizes quantum mechanics to process information using qubits, which can exist in a superposition of states (0 and 1) simultaneously. Unlike classical bits, this allows quantum computers to perform calculations exponentially faster for certain problems. Key phenomena like entanglement link qubits together, enab...",quantum_computing,gemma4:e4b,,"Hybrid,Read/Write",w/ Tools,Prompt Engineering,,,,
+ChatCoT,"Quantum computing leverages qubits, exploiting quantum phenomena like superposition and entanglement. Unlike classical bits (0 or 1), qubits can exist in multiple states simultaneously, greatly increasing computational power. This fundamental difference allows quantum computers to process vast data sets and solve complex problems exponentially fast...",quantum_computing,gemma4:e4b,,Unified,w/o Tools,,,,,
+LLM4RL,"Quantum computing leverages quantum mechanics, using qubits instead of classical bits. Qubits exploit superposition and entanglement, allowing them to represent 0, 1, and both simultaneously. This capability enables vastly faster computation for certain complex problems. Applications include drug discovery, advanced materials science, and cryptogra...",quantum_computing,gemma4:e4b,,,,,,,,
+Inner Monologue,"Quantum computing utilizes quantum mechanics phenomena, like superposition and entanglement, to process information. Instead of classical bits (0 or 1), it uses qubits, which can exist as a combination of both states simultaneously. This capability allows quantum computers to solve certain complex problems—such as advanced material simulations or f...",quantum_computing,gemma4:e4b,,,w/o Tools,Prompt Engineering,,,Robotics & Embodied AI,
+Tree-of-Thought (ToT),"Focus on defining the technology and its unique unit of information (qubits) compared to classical bits. Classical bits represent a definite state of either 0 or 1. In contrast, qubits leverage superposition, allowing them to exist simultaneously as a combination of 0 and 1. This enables qubits to encode exponentially more information than classica",quantum_computing,gemma4:e4b,,,,,,,,
+Re-Prompting,"Quantum computing leverages quantum mechanics, utilizing quantum bits (qubits) instead of classical bits. Qubits exploit superposition and entanglement, allowing them to represent zero and one simultaneously, greatly increasing processing power. This enables the calculation of highly complex problems that are intractable for traditional supercomput...",quantum_computing,gemma4:e4b,,,,,,,,
+LLM+P,"Quantum computing utilizes qubits, harnessing quantum phenomena like superposition and entanglement. Unlike classical bits, qubits can exist in multiple states simultaneously, allowing for massively parallel data processing. This architecture promises exponential speedups for specialized problems. Potential applications include advanced molecular m...",quantum_computing,gemma4:e4b,,,,,,,,
+ReAct,"Quantum computing uses quantum mechanics, leveraging qubits that utilize superposition and entanglement. Unlike classical bits (0 or 1), qubits can represent multiple states simultaneously. This allows the system to process immense amounts of data, tackling problems intractable for traditional supercomputers. Applications include advanced drug disc...",quantum_computing,gemma4:e4b,,,w/ Tools,w/ Fine-tuning,,,,w/ Benchmark
+LLM-Planner,"Quantum computing processes information using principles of quantum mechanics. Unlike classical bits (0 or 1), qubits can exist in superposition, representing both states simultaneously. This capability enables massive parallel computation, drastically increasing processing power. Quantum computers are expected to solve highly complex problems in f",quantum_computing,gemma4:e4b,,,,,,,Robotics & Embodied AI,w/ Benchmark
+HuggingGPT,"Quantum computing uses quantum mechanics principles, leveraging qubits instead of classical bits. Qubits exploit superposition and entanglement, allowing them to represent and process vast amounts of information simultaneously. This immense processing power enables the simulation of molecular interactions and solving complex optimization problems c...",quantum_computing,gemma4:e4b,,Unified,w/ Tools,,,,,w/ Benchmark
+Zero-Shot CoT,"Quantum computing utilizes quantum mechanics, employing qubits instead of classical bits. Qubits leverage superposition and entanglement, allowing them to exist in multiple states simultaneously. This fundamentally changes computational power, enabling the processing of complex problems currently intractable for even the most powerful supercomputer...",quantum_computing,gemma4:e4b,,,,,,,,
+ReWOO,"Quantum computing uses qubits, which are fundamentally different from classical bits. Qubits leverage quantum mechanics—specifically superposition and entanglement—allowing them to represent and process vast amounts of information simultaneously. This exponential power promises to solve currently intractable problems in areas such as drug discovery",quantum_computing,gemma4:e4b,,Unified,w/ Tools,w/ Fine-tuning,,,,

@@ -1,0 +1,6 @@
+task_name,query_text,query_type,domain,difficulty
+quantum_computing,"Provide a brief overview of quantum computing.",factual,science,easy
+climate_change,"What are the main causes and long-term effects of climate change?",reasoning,science,medium
+delivery_route,"Plan an optimal delivery route for 5 stops: A→B=2km, B→C=3km, C→D=1km, D→E=4km, E→A=5km.",planning,logistics,medium
+creative_story,"Write a short story opening set on Mars in 2150.",creative,literature,easy
+machine_learning,"Explain the difference between supervised and unsupervised learning.",factual,computing,easy

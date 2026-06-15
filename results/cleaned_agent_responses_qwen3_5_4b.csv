@@ -1,0 +1,39 @@
+title,response,idx,model,profile,memory,action,capability_acquisition,social_science,natural_science,engineering,benchmark
+Tree-of-Thought (ToT),1. Identify human emissions of greenhouse gases from burning fossil fuels and land use. ,climate_change,qwen3.5:4b,,,,,,,,
+Zero-Shot CoT,"Causes: Burning fossil fuels emits CO2, trapping heat.
+Reasoning: Gases block radiation, raising global temps.
+Step 1: Ice melts, sea levels rise.
+Step 2: Weather patterns disrupt, creating extreme storms.
+Step 3: Feedback loops amplify warming instability.
+Effects: Rising seas, biodiversity loss, droughts, wildfires.
+Conclusion: Urgent emission re...",climate_change,qwen3.5:4b,,,,,,,,
+LLM+P,"PDDL Domain: Predicates (emitGas, heatWorld, meltIce). Init: emitGas. Goal: Sustain.
+Reasoning: PDDL maps causal chains.
+Planner Sim: 1. Gas->Heat. 2. Heat->Melting. 3. Plan: Reduce Gas.
+Result: Causes: Human GHG emissions. Effects: Warming, Sea rise, Ext weather. Mitigation prevents irreversible damage.",climate_change,qwen3.5:4b,,,,,,,,
+Chain of Thought (CoT),"Iron-red dust choked the morning light over Olympus Mons, 2150. Elara checked her suit's pulse, recycled air tasting stale. Her HUD flickered with a ghostly signal, ancient coordinates piercing the Martian static. The sky, cloudless and pale, pressed down heavy. Below, the habitat glowed with bioluminescent moss, the only spark of life against the ...",creative_story,qwen3.5:4b,,,,,,,,
+ChatCoT,"Thought: Mars 2150 needs tension. Focus: Elara's isolation in the rusted dome.
+Draft: Airlock fails. Red dust.
+Final: The crimson dust choked the airlock. Commander Elara watched the seal fail in the 2150 terminal, her suit alarm screaming against the red void. Silence.",creative_story,qwen3.5:4b,,Unified,w/o Tools,,,,,
+Tree-of-Thought (ToT),"3. Introduce a malfunctioning oxygen mask to drive the plot without needing heavy exposition, adding urgency. ",creative_story,qwen3.5:4b,,,,,,,,
+SelfCheck,"1. Verify network: Edges form a complete directed cycle.
+2. Identify Error: ""No valid response"" is incorrect; path exists.
+3. Calculate Total: 2+3+1+4+5 = 15 km.
+4. Optimize Path: Sequence A→B→C→D→E→A covers all stops.
+5. Correct Answer: Route A→B→C→D→E→A is 15 km total.",delivery_route,qwen3.5:4b,,,,,,,,
+Tree-of-Thought (ToT),2. Add segment values to find the A-B-C-D-E-A total distance (15km). ,delivery_route,qwen3.5:4b,,,,,,,,
+Zero-Shot CoT,"Step 1: List nodes A-E. Distances: A-B(2km), B-C(3km), C-D(1km), D-E(4km), E-A(5km).
+Step 2: Calculate total distance for sequence A-B-C-D-E-A: 2+3+1+4+5 = 15km.
+Step 3: Verify reverse order E-A-B-C-D-E. Distance remains 15km.
+Step 4: Confirm A→B→C→D→E→A is optimal route visiting all stops.
+Step 5: Execute plan. Total delivery distance: 15km.",delivery_route,qwen3.5:4b,,,,,,,,
+Inner Monologue,"Supervised learning trains models using labeled data to predict specific outcomes. Unsupervised learning discovers patterns within unlabeled data without explicit feedback or target variables. Supervised methods minimize prediction error, while unsupervised algorithms focus on clustering to extract inherent features.",machine_learning,qwen3.5:4b,,,w/o Tools,Prompt Engineering,,,Robotics & Embodied AI,
+Re-Prompting,"Supervised learning trains models on labeled datasets to map inputs to specific outputs, validated by accuracy checks. Unsupervised learning clusters unlabeled data to find hidden patterns, validated by cohesion metrics. The core difference is that supervised models require explicit labeled feedback during the training process.",machine_learning,qwen3.5:4b,,,,,,,,
+Tree-of-Thought (ToT),No valid chain of thought generated.,machine_learning,qwen3.5:4b,,,,,,,,
+Re-Prompting,Quantum systems encode information into qubits capable of existing in multiple superposed states simultaneously. Logic gates manipulate these entangled states through parallel processing sequences. Validating each operation requires maintaining extreme isolation to prevent decoherence errors. This step-by-step progression enables solving complex ma...,quantum_computing,qwen3.5:4b,,,,,,,,
+Zero-Shot CoT,"Quantum computing uses qubits leveraging superposition and entanglement to process information. Unlike classical bits, qubits exist in multiple states simultaneously, enabling exponential speedups. Applications include cryptography, optimization, and simulations. Research aims to build systems to solve problems intractable for traditional supercomp...",quantum_computing,qwen3.5:4b,,,,,,,,
+HuggingGPT,"Quantum computing leverages qubits and superposition to enhance computational efficiency. Tasks decompose into circuit definition and state simulation sub-tasks, with CodeLlama for definition and LLaMA-2 for simulation. Integrating these outputs with Qiskit platforms finalizes the simulation workflow.",quantum_computing,qwen3.5:4b,,Unified,w/ Tools,,,,,w/ Benchmark
+ReWOO,"Quantum computing uses qubits leveraging superposition and entanglement, processing information differently than classical computers. This enables solving complex problems exponentially faster for tasks like cryptography. However, challenges like error rates and decoherence limit widespread adoption. The field remains emerging toward practical real",quantum_computing,qwen3.5:4b,,Unified,w/ Tools,w/ Fine-tuning,,,,
+Chain of Thought (CoT),"Quantum computing uses superposition and entanglement to process information with qubits instead of classical bits. This allows solving specific complex problems faster than standard computers. Current research focuses on developing stable architectures to achieve quantum supremacy. Applications include cryptography, logistics, and material science...",quantum_computing,qwen3.5:4b,,,,,,,,
+Tree-of-Thought (ToT),This capability enables parallel processing capabilities far beyond classical limits. ,quantum_computing,qwen3.5:4b,,,,,,,,
+LLM-Planner,"Quantum computing harnesses quantum mechanical principles like superposition and entanglement to process information. It differs from classical computers by using qubits that can exist in multiple states simultaneously. This architecture enables exponential speedups for specific complex calculations on appropriate hardware. Currently, these process",quantum_computing,qwen3.5:4b,,,,,,,Robotics & Embodied AI,w/ Benchmark

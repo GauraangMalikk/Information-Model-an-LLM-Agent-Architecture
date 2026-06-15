@@ -1,0 +1,11 @@
+Task,Agent,Model,Total Score
+climate_change,ReWOO,qwen3.5:27b,0.9999992847442627
+climate_change,Tree-of-Thought (ToT),qwen3.5:27b,1.0000007152557373
+creative_story,ReWOO,qwen3.5:27b,0.9999992847442627
+creative_story,Tree-of-Thought (ToT),qwen3.5:27b,1.0000007152557373
+delivery_route,ReWOO,qwen3.5:27b,0.9999992847442627
+delivery_route,Tree-of-Thought (ToT),qwen3.5:27b,1.0000007152557373
+machine_learning,Tree-of-Thought (ToT),qwen3.5:27b,1.0000007152557373
+machine_learning,ReWOO,qwen3.5:27b,0.9999992847442627
+quantum_computing,ReWOO,qwen3.5:27b,1.2266666889190674
+quantum_computing,Tree-of-Thought (ToT),qwen3.5:27b,0.7866666316986084

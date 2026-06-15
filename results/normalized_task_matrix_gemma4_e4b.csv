@@ -1,0 +1,76 @@
+Task,Agent,Model,Total Score
+climate_change,Re-Prompting,gemma4:e4b,1.4331352710723877
+climate_change,Chain of Thought (CoT),gemma4:e4b,1.4747931957244873
+climate_change,Zero-Shot CoT,gemma4:e4b,1.483957052230835
+climate_change,ReWOO,gemma4:e4b,1.4305229187011719
+climate_change,HuggingGPT,gemma4:e4b,1.4370458126068115
+climate_change,LLM-Planner,gemma4:e4b,1.4202532768249512
+climate_change,ReAct,gemma4:e4b,1.553877353668213
+climate_change,LLM+P,gemma4:e4b,1.5483856201171875
+climate_change,Inner Monologue,gemma4:e4b,1.5256128311157227
+climate_change,Tree-of-Thought (ToT),gemma4:e4b,1.4743868112564087
+climate_change,LLM4RL,gemma4:e4b,1.5573064088821411
+climate_change,ChatCoT,gemma4:e4b,1.4431114196777344
+climate_change,TPTU,gemma4:e4b,1.5021822452545166
+climate_change,Self-Refine,gemma4:e4b,1.458463430404663
+climate_change,SelfCheck,gemma4:e4b,1.47591233253479
+creative_story,LLM-Planner,gemma4:e4b,1.6433039903640747
+creative_story,SelfCheck,gemma4:e4b,1.525874376296997
+creative_story,Self-Refine,gemma4:e4b,1.6259859800338745
+creative_story,TPTU,gemma4:e4b,1.615301489830017
+creative_story,ChatCoT,gemma4:e4b,1.6782373189926147
+creative_story,LLM4RL,gemma4:e4b,1.5093415975570679
+creative_story,Tree-of-Thought (ToT),gemma4:e4b,1.609506607055664
+creative_story,Inner Monologue,gemma4:e4b,1.6343190670013428
+creative_story,LLM+P,gemma4:e4b,1.5231781005859375
+creative_story,ReAct,gemma4:e4b,1.5846116542816162
+creative_story,Chain of Thought (CoT),gemma4:e4b,1.5895705223083496
+creative_story,ReWOO,gemma4:e4b,1.6132479906082153
+creative_story,Zero-Shot CoT,gemma4:e4b,1.5819629430770874
+creative_story,Re-Prompting,gemma4:e4b,1.681342363357544
+creative_story,HuggingGPT,gemma4:e4b,1.5931661128997803
+delivery_route,Zero-Shot CoT,gemma4:e4b,1.2302297353744507
+delivery_route,Chain of Thought (CoT),gemma4:e4b,1.3326114416122437
+delivery_route,ReWOO,gemma4:e4b,1.436204195022583
+delivery_route,HuggingGPT,gemma4:e4b,1.3580254316329956
+delivery_route,LLM-Planner,gemma4:e4b,1.349331021308899
+delivery_route,ReAct,gemma4:e4b,1.4196982383728027
+delivery_route,LLM+P,gemma4:e4b,1.3673597574234009
+delivery_route,Re-Prompting,gemma4:e4b,1.4474279880523682
+delivery_route,Tree-of-Thought (ToT),gemma4:e4b,1.2562687397003174
+delivery_route,Inner Monologue,gemma4:e4b,1.372727394104004
+delivery_route,LLM4RL,gemma4:e4b,1.3408875465393066
+delivery_route,ChatCoT,gemma4:e4b,1.4043605327606201
+delivery_route,TPTU,gemma4:e4b,1.4430397748947144
+delivery_route,Self-Refine,gemma4:e4b,1.4327759742736816
+delivery_route,SelfCheck,gemma4:e4b,1.413149118423462
+machine_learning,SelfCheck,gemma4:e4b,1.0296509265899658
+machine_learning,Zero-Shot CoT,gemma4:e4b,0.994443416595459
+machine_learning,ReWOO,gemma4:e4b,1.0105628967285156
+machine_learning,HuggingGPT,gemma4:e4b,1.0069847106933594
+machine_learning,Chain of Thought (CoT),gemma4:e4b,0.9748730063438416
+machine_learning,LLM-Planner,gemma4:e4b,1.0128648281097412
+machine_learning,Re-Prompting,gemma4:e4b,0.9528366327285767
+machine_learning,ReAct,gemma4:e4b,1.2532474994659424
+machine_learning,LLM+P,gemma4:e4b,1.00275719165802
+machine_learning,Tree-of-Thought (ToT),gemma4:e4b,1.007845163345337
+machine_learning,Inner Monologue,gemma4:e4b,1.0028051137924194
+machine_learning,LLM4RL,gemma4:e4b,0.9956284165382385
+machine_learning,ChatCoT,gemma4:e4b,0.9895950555801392
+machine_learning,TPTU,gemma4:e4b,1.0251314640045166
+machine_learning,Self-Refine,gemma4:e4b,1.007245659828186
+quantum_computing,Chain of Thought (CoT),gemma4:e4b,0.3198341727256775
+quantum_computing,SelfCheck,gemma4:e4b,0.2853218913078308
+quantum_computing,Self-Refine,gemma4:e4b,0.28224170207977295
+quantum_computing,TPTU,gemma4:e4b,0.36417633295059204
+quantum_computing,ChatCoT,gemma4:e4b,0.2726687788963318
+quantum_computing,LLM4RL,gemma4:e4b,0.3137456774711609
+quantum_computing,Inner Monologue,gemma4:e4b,0.2834979295730591
+quantum_computing,Tree-of-Thought (ToT),gemma4:e4b,0.4538492262363434
+quantum_computing,Re-Prompting,gemma4:e4b,0.2977273762226105
+quantum_computing,LLM+P,gemma4:e4b,0.36846405267715454
+quantum_computing,ReAct,gemma4:e4b,0.2893165647983551
+quantum_computing,LLM-Planner,gemma4:e4b,0.3659399449825287
+quantum_computing,HuggingGPT,gemma4:e4b,0.34542012214660645
+quantum_computing,Zero-Shot CoT,gemma4:e4b,0.26626449823379517
+quantum_computing,ReWOO,gemma4:e4b,0.3249150812625885

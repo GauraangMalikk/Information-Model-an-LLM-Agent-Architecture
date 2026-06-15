@@ -1,0 +1,76 @@
+Task,Agent,Model,Total Score
+climate_change,Chain of Thought (CoT),tinyllama,1.640450358390808
+climate_change,Zero-Shot CoT,tinyllama,1.6139501333236694
+climate_change,ReWOO,tinyllama,1.630900502204895
+climate_change,HuggingGPT,tinyllama,1.7268259525299072
+climate_change,LLM-Planner,tinyllama,1.6202292442321777
+climate_change,Re-Prompting,tinyllama,1.6738862991333008
+climate_change,ReAct,tinyllama,1.737126111984253
+climate_change,LLM+P,tinyllama,1.569962501525879
+climate_change,Inner Monologue,tinyllama,1.6903855800628662
+climate_change,LLM4RL,tinyllama,1.3474557399749756
+climate_change,ChatCoT,tinyllama,1.673040509223938
+climate_change,TPTU,tinyllama,1.54025399684906
+climate_change,Tree-of-Thought (ToT),tinyllama,1.5101723670959473
+climate_change,Self-Refine,tinyllama,1.649034857749939
+climate_change,SelfCheck,tinyllama,1.6122853755950928
+creative_story,LLM-Planner,tinyllama,0.9063273072242737
+creative_story,Tree-of-Thought (ToT),tinyllama,0.8374794721603394
+creative_story,SelfCheck,tinyllama,0.9280409812927246
+creative_story,Self-Refine,tinyllama,0.9843840003013611
+creative_story,TPTU,tinyllama,0.7960671186447144
+creative_story,ChatCoT,tinyllama,0.7287771105766296
+creative_story,LLM4RL,tinyllama,0.7926033139228821
+creative_story,Inner Monologue,tinyllama,0.7689158320426941
+creative_story,LLM+P,tinyllama,1.131621241569519
+creative_story,ReAct,tinyllama,1.041710376739502
+creative_story,ReWOO,tinyllama,0.7476900815963745
+creative_story,HuggingGPT,tinyllama,0.8345205187797546
+creative_story,Re-Prompting,tinyllama,0.6627459526062012
+creative_story,Chain of Thought (CoT),tinyllama,0.8054405450820923
+creative_story,Zero-Shot CoT,tinyllama,0.846905529499054
+delivery_route,HuggingGPT,tinyllama,0.24040468037128448
+delivery_route,Chain of Thought (CoT),tinyllama,0.40023136138916016
+delivery_route,Zero-Shot CoT,tinyllama,0.2862420380115509
+delivery_route,ReWOO,tinyllama,0.4996008276939392
+delivery_route,Re-Prompting,tinyllama,0.256331205368042
+delivery_route,LLM-Planner,tinyllama,0.5318546295166016
+delivery_route,ReAct,tinyllama,0.47306856513023376
+delivery_route,LLM+P,tinyllama,0.26237040758132935
+delivery_route,Inner Monologue,tinyllama,0.3847101926803589
+delivery_route,LLM4RL,tinyllama,0.3145126700401306
+delivery_route,ChatCoT,tinyllama,0.3053494691848755
+delivery_route,TPTU,tinyllama,0.2883307933807373
+delivery_route,Self-Refine,tinyllama,0.6899057626724243
+delivery_route,SelfCheck,tinyllama,0.4862373173236847
+delivery_route,Tree-of-Thought (ToT),tinyllama,0.61159348487854
+machine_learning,SelfCheck,tinyllama,0.5249121189117432
+machine_learning,Chain of Thought (CoT),tinyllama,0.48719730973243713
+machine_learning,Zero-Shot CoT,tinyllama,0.4997631311416626
+machine_learning,ReWOO,tinyllama,0.5503230690956116
+machine_learning,HuggingGPT,tinyllama,0.5327045917510986
+machine_learning,LLM-Planner,tinyllama,0.5279662609100342
+machine_learning,ReAct,tinyllama,0.5182614326477051
+machine_learning,LLM+P,tinyllama,0.5065648555755615
+machine_learning,Re-Prompting,tinyllama,0.5221555829048157
+machine_learning,Inner Monologue,tinyllama,0.5306006669998169
+machine_learning,LLM4RL,tinyllama,0.5551971793174744
+machine_learning,ChatCoT,tinyllama,0.46270281076431274
+machine_learning,TPTU,tinyllama,0.5128195285797119
+machine_learning,Tree-of-Thought (ToT),tinyllama,0.5727293491363525
+machine_learning,Self-Refine,tinyllama,0.8254296779632568
+quantum_computing,ReWOO,tinyllama,1.0799156427383423
+quantum_computing,SelfCheck,tinyllama,1.0458688735961914
+quantum_computing,Self-Refine,tinyllama,1.062009334564209
+quantum_computing,Tree-of-Thought (ToT),tinyllama,0.9778599739074707
+quantum_computing,TPTU,tinyllama,1.092422604560852
+quantum_computing,ChatCoT,tinyllama,1.1213736534118652
+quantum_computing,LLM4RL,tinyllama,0.9222358465194702
+quantum_computing,Inner Monologue,tinyllama,0.980972170829773
+quantum_computing,LLM+P,tinyllama,1.1566566228866577
+quantum_computing,ReAct,tinyllama,1.061196208000183
+quantum_computing,LLM-Planner,tinyllama,0.9761773347854614
+quantum_computing,Re-Prompting,tinyllama,1.0138862133026123
+quantum_computing,Chain of Thought (CoT),tinyllama,1.019711971282959
+quantum_computing,HuggingGPT,tinyllama,0.9631062746047974
+quantum_computing,Zero-Shot CoT,tinyllama,1.0509282350540161

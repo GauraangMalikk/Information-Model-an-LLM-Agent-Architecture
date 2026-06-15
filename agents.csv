@@ -1,0 +1,199 @@
+﻿Title,Institution,Profile,Memory,Planning,Action,Capability Acquition,Social science,Natural Science,Engineering,Subjective,Objective,Benchmark,Release Date,Publication,Code,Paper
+Emotionally Numb or Empathetic? Evaluating How LLMs Feel Using EmotionBench,The Chinese University of Hong Kong,,,,,,,,,Human Annotation,,w/ Benchmark,2023-08-07,arxiv,GitHub - CUHK-ARISE/EmotionBench,[2308.03656] Emotionally Numb or Empathetic? Evaluating How LLMs Feel Using EmotionBench (arxiv.org)
+EduChat,"East China Normal University,Fudan University",Handcrafting,,,w/ Tools,,,Science Education,,,,,2023-08-05,arxiv,"GitHub - icalk-nlp/EduChat: An open-source educational chat model from ICALK, East China Normal University. 开源中英教育对话大模型。(通用基座模型，GPU部署，数据清理) 致敬: LLaMA, MOSS, BELLE, Ziya, vLLM",[2308.02773] EduChat: A Large-Scale Language Model-based Chatbot System for Intelligent Education (arxiv.org)
+Tidybot,"Columbia University,Google,Princeton University,Stanford University",,,w/o Feedback,w/ Tools,,,,Robotics & Embodied AI,,Multi-task Evaluation,w/ Benchmark,2023-05-09,arxiv,GitHub - jimmyyhwu/tidybot: TidyBot: Personalized Robot Assistance with Large Language Models,[2305.05658] TidyBot: Personalized Robot Assistance with Large Language Models (arxiv.org)
+SimplyRetrieve,,,"Hybrid,Read/Write",,w/ Tools,,,,,,Multi-task Evaluation,,2023-08-08,arxiv,"GitHub - RCGAI/SimplyRetrieve: Lightweight chat AI platform featuring custom knowledge, open-source LLMs, prompt-engineering, retrieval analysis. Highly customizable. For Retrieval-Centric & Retrieval-Augmented Generation.",[2308.03983] SimplyRetrieve: A Private and Lightweight Retrieval-Centric Generative AI Tool (arxiv.org)
+LLM As DBA,Tsinghua University,Handcrafting,"Hybrid,Read/Write",w/ Feedback,w/ Tools,,,,CS&SE,,,,2023-08-10,arxiv,GitHub - TsinghuaDatabaseGroup/DB-GPT,[2308.05481] LLM As DBA (arxiv.org)
+LLMFlows,,,,,,,,,,,,,2023-06-26,Github,http://github.com/stoyan-stoyanov/llmflows,
+Improving Factuality and Reasoning in Language Models through Multiagent Debate ,"Brain Team,Google Research,Massachusetts Institute of Technology",,Unified,w/ Feedback,w/o Tools,,,,,,Isolated Reasoning,w/ Benchmark,2023-05-23,arxiv,https://composable-models.github.io/llm_debate/,https://arxiv.org/abs/2305.14325
+LLM-Planner,The Ohio State University,,,w/ Feedback,,,,,Robotics & Embodied AI,,,w/ Benchmark,2023-03-30,arxiv,https://dki-lab.github.io/LLM-Planner/,https://arxiv.org/abs/2212.04088
+LangChain,,,,,w/ Tools,,,,General Autonomous Agents,,,,2022-10-01,Github,https://docs.langchain.com/docs/,
+To Infinity and Beyond,,,,,,,,,,,,,2023-07-24,Github,https://fablestudio.github.io/showrunner-agents,
+GPTeam,,,,,,,,,General Autonomous Agents,,,,2023-04-03,Github,https://github.com/101dotxyz/GPTeam,
+AI Town,,,,,,,,,,,,,2023-08-12,Github,https://github.com/a16z-infra/ai-town,
+Training Socially Aligned Language Models in Simulated Human Society,"Ann Arbor,Dartmouth College,Google DeepMind,Stanford University,University of British Columbia,University of Michigan",Handcrafting,"Hybrid,Read/Write",w/o Feedback,w/o Tools,w/ Fine-tuning,Social Simulation,,,,"Environment Simulation,Social Evaluation",w/ Benchmark,2023-05-26,arxiv,https://github.com/agi-templar/Stable-Alignment,https://arxiv.org/pdf/2305.16960.pdf
+OpenAGI,Rutgers University,,,w/ Feedback,w/ Tools,w/ Fine-tuning,,,,,,,2023-04-10,arxiv,https://github.com/agiresearch/OpenAGI/blob/main/README.md,https://arxiv.org/abs/2304.04370
+Recommender AI Agent,Microsoft,,"Hybrid,Read/Write",w/ Feedback,w/ Tools,,,,,,,w/ Benchmark,2023-09-01,arxiv,https://github.com/AngusHuang17/InteRecAgent,https://arxiv.org/abs/2308.16505
+GPT Engineer,,,,,,,,,,,,,,,,
+AutoAgents,,,"Hybrid,Read/Write",w/ Feedback,w/ Tools,Prompt Engineering,,,,,,,2023-05-19,Github,https://github.com/AutoLLM/AutoAgents,
+Epidemic Modeling with Generative Agents,Virginia Tech,GPT-Generated,"Hybrid,Read/Write",w/ Feedback,,,Social Simulation,,,,,,2023-07-11,arxiv,https://github.com/bear96/GABM-Epidemic,https://arxiv.org/abs/2307.04986
+ReWOO,"Microsoft,North Carolina State University",,Unified,w/o Feedback,w/ Tools,w/ Fine-tuning,,,,,,,2023-05-23,arxiv,https://github.com/billxbf/ReWOO,https://arxiv.org/pdf/2305.18323.pdf
+CAMEL,King Abdullah University of Science & Technology,"GPT-Generated,Handcrafting",,w/ Feedback,w/o Tools,,,,,,,,2023-03-31,arxiv,https://github.com/camel-ai/camel,https://arxiv.org/pdf/2303.17760.pdf
+ChatEval,"Hong Kong University of Science and Technology,Peking University,Tsinghua University",Handcrafting,,,w/o Tools,,,,,Turing Test,Social Evaluation,w/ Benchmark,2023-08-14,arxiv,https://github.com/chanchimin/ChatEval,https://arxiv.org/abs/2308.07201
+Clembench,University of Potsdam,,,,,,,,,,"Environment Simulation,Multi-task Evaluation",w/ Benchmark,2023-05-22,arxiv,https://github.com/clp-research/clembench,https://arxiv.org/abs/2305.13455
+"Describe, Explain, Plan and Select","Peking University,University of California Los Angeles",,Unified,w/ Feedback,w/o Tools,Mechanism Engineering,,,,,Environment Simulation,w/ Benchmark,2023-02-03,arxiv,https://github.com/CraftJarvis/MC-Planner,https://arxiv.org/pdf/2302.01560.pdf
+LLM+P,University of Texas at Austin,,,w/o Feedback,,,,,,,,,2023-04-22,arxiv,https://github.com/Cranial-XIX/llm-pddl,https://arxiv.org/abs/2304.11477
+Large Language Models as Tool Makers,"DeepMind,Princeton University",,"Hybrid,Read/Write",w/ Feedback,w/o Tools,Mechanism Engineering,,,,,,,2023-05-26,arxiv,https://github.com/ctlllll/LLM-ToolMaker,https://arxiv.org/abs/2305.17126
+ ViperGPT,Columbia University,,"Hybrid,Read/Write",w/o Feedback,w/ Tools,,,,,,Multi-task Evaluation,w/ Benchmark,2023-03-14,arxiv,https://github.com/cvlab-columbia/viper,https://arxiv.org/abs/2303.08128
+REFINER,École Polytechnique Fédérale de Lausanne,,,w/ Feedback,,w/ Fine-tuning,,,,,,,2023-04-04,arxiv,https://github.com/debjitpaul/refiner,https://arxiv.org/abs/2304.01904
+Do Embodied Agents Dream of Pixelated Sheep,"Irvine,UniUniversity of California",,"Hybrid,Read/Write",w/o Feedback,w/o Tools,,,,Robotics & Embodied AI,,Environment Simulation,w/ Benchmark,2023-01-28,ICML,https://github.com/DeckardAgent/deckard,https://arxiv.org/abs/2301.12050
+GPTRPG,,,,,,,,,,,,,2023-04-15,Github,https://github.com/dzoba/gptrpg,
+LocalAGI,,,,,,,,,,,,,2023-06-18,Github,https://github.com/EmbraceAGI/LocalAGI,
+BIG-AGI,,,,,,w/ Fine-tuning,,,,,,,2023-03-19,Github,https://github.com/enricoros/big-agi,
+AI-legion,,,,,,,,,General Autonomous Agents,,,,2023-04-10,Github,https://github.com/eumemic/ai-legion,
+LoopGPT,,,,,,,,,General Autonomous Agents,,,,2023-04-14,Github,https://github.com/farizrahman4u/loopgpt,
+AutoChain,,,,,,,,,,,,,2023-05-19,Github,https://github.com/Forethought-Technologies/AutoChain,
+Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback,"Allen Institute for AI,University of Edinburgh",Handcrafting,Unified,w/ Feedback,w/o Tools,,,,,,Isolated Reasoning,,2023-05-17,arxiv,https://github.com/FranxYao/GPT-Bargaining,https://arxiv.org/abs/2305.10142
+Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies,"Georgia Tech,Microsoft Research,Olin College of Engineering",,,,,,Psychology,,,,Social Evaluation,,2022-08-18,ICML,https://github.com/GatiAher/UsingLarge-Language-Models-to-Replicate-Human-Subject-Studies.,https://arxiv.org/abs/2208.10264
+MetaGPT,DeepWisdom,Handcrafting,"Hybrid,Read/Write",w/ Feedback,w/ Tools,Mechanism Engineering,,,CS&SE,,,,2023-08-01,arxiv,https://github.com/geekan/MetaGPT,https://arxiv.org/abs/2308.00352
+Gentopia.AI ,,Handcrafting,Hybrid,w/o Feedback,w/ Tools,Prompt Engineering,,,,,Multi-task Evaluation,w/ Benchmark,2023-08-08,arxiv,https://github.com/Gentopia-AI/Gentopia,https://arxiv.org/abs/2308.04030
+Generating Executable Action Plans with Environmentally-Aware Language Models,University of North Carolina,,Unified,w/o Feedback,w/o Tools,Prompt Engineering,,,,,Environment Simulation,,2022-10-10,arxiv,https://github.com/hri-ironlab/scene_aware_language_planner,https://arxiv.org/abs/2210.04964
+Language Models as Zero-Shot Planners,UC Berkeley,,,w/o Feedback,w/o Tools,w/ Fine-tuning,,,Robotics & Embodied AI,,,,2022-07-17,ICML,https://github.com/huangwl18/language-planner,https://arxiv.org/pdf/2201.07207.pdf
+Decision-Oriented Dialogue for Human–AI Collaboration,"Johns Hopkins University,Massachusetts Institute of Technology,Microsoft Semantic Machines,UC Berkeley",,,,,,,,,,Social Evaluation,w/ Benchmark,2023-05-31,arxiv,https://github.com/jlin816/dialop,https://arxiv.org/abs/2305.20076
+Generative Agents,Stanford University,Handcrafting,"Hybrid,Read/Write/Reflection",w/ Feedback,w/o Tools,Mechanism Engineering,Social Simulation,,,"Human Annotation,Turing Test",,,2023-04-07,UIST,https://github.com/joonspk-research/generative_agents,https://arxiv.org/abs/2304.03442
+AGiXT,,,,,,,,,General Autonomous Agents,,,,2023-04-17,Github,https://github.com/Josh-XT/AGiXT,
+Langroid,,,,,,,,,,,,,2023-04-16,Github,https://github.com/langroid/langroid,https://arxiv.org/pdf/2308.00352
+Toolformer,"Meta AI Research,Universitat Pompeu Fabra",,,w/o Feedback,w/ Tools,w/ Fine-tuning,,,,,,,2023-02-09,arxiv,https://github.com/lucidrains/toolformer-pytorch,https://arxiv.org/abs/2302.04761
+MemPrompt,Carnegie Mellon University,,"Hybrid,Read/Write",w/o Feedback,,Mechanism Engineering,,,,,,w/ Benchmark,2022-01-16,arxiv,https://github.com/madaan/memprompt,https://arxiv.org/abs/2201.06009
+Self-Refine,"Allen Institute for Artificial Intelligence,Brain Team,Carnegie Mellon University,Google Research,NVIDIA,UC San Diego,University of Washington",,,w/ Feedback,,Prompt Engineering,,,,,,,2023-03-30,arxiv,https://github.com/madaan/self-refine,https://arxiv.org/abs/2303.17651
+DemoGPT,,,,,,,,,"CS&SE,General Autonomous Agents",,,,2023-06-27,Github,https://github.com/melih-unsal/DemoGPT,
+UNLEASHING COGNITIVE SYNERGY IN LARGE LANGUAGE MODELS,"Microsoft Research Asia,University of Illinois Urbana-Champaign",GPT-Generated,,w/o Feedback,,Prompt Engineering,,,,,,,2023-07-11,arxiv,https://github.com/mikewangwzhl/solo-performance-prompting,https://arxiv.org/abs/2307.05300
+VOYAGER,"Arizona State University,Caltech,NVIDIA,Stanford University,UT Austin",,"Hybrid,Read/Write/Reflection",w/ Feedback,w/o Tools,Mechanism Engineering,,,Robotics & Embodied AI,,Environment Simulation,w/ Benchmark,2023-05-25,arxiv,https://github.com/MineDojo/Voyager,https://arxiv.org/abs/2305.16291
+MiniAGI,,,,,,,,,General Autonomous Agents,,,,2023-06-20,Github,https://github.com/muellerberndt/mini-agi,
+GeneGPT,"National Institutes of Health,University of Maryland",,,w/o Feedback,w/ Tools,,,,,,,,2023-04-19,arxiv,https://github.com/ncbi/GeneGPT,https://arxiv.org/abs/2304.09667
+SelfCheck,,,,,,,,,,,,,,,,
+Reflexion,"Massachusetts Institute of Technology,Northeastern University,Princeton University",,"Hybrid,Read/Write/Reflection",w/ Feedback,w/o Tools,Prompt Engineering,,,,,"Environment Simulation,Multi-task Evaluation",w/ Benchmark,2023-03-20,arxiv,https://github.com/noahshinn024/reflexion,https://arxiv.org/abs/2303.11366
+AgentVerse,Tsinghua University,GPT-Generated,"Hybrid,Read/Write",,w/o Tools,,,,General Autonomous Agents,,,,2023-05-06,arxiv,https://github.com/OpenBMB/AgentVerse,https://arxiv.org/abs/2308.10848
+BMTools,Tsinghua University,,,w/ Feedback,w/ Tools,Mechanism Engineering,,,General Autonomous Agents,,,,2023-03-31,arxiv,https://github.com/OpenBMB/BMTools,https://arxiv.org/pdf/2304.08354.pdf
+Communicative Agents for Software Development,Tsinghua University,Handcrafting,"Hybrid,Read/Write/Reflection",w/ Feedback,w/ Tools,Mechanism Engineering,,,CS&SE,,,,2023-07-16,arxiv,https://github.com/OpenBMB/ChatDev,https://arxiv.org/pdf/2307.07924.pdf
+ToolBench,"Beijing University of Posts and Telecommunications,Carnegie Mellon University,ModelBest Inc.,New York University,Renmin University of China,Tsinghua University,University of Illinois Urbana-Champaign,Zhihu Inc.",,,,,,,,,,Multi-task Evaluation,w/ Benchmark,2023-05-28,arxiv,https://github.com/OpenBMB/ToolBench,https://arxiv.org/abs/2304.08354
+ToolLLM,"ModelBest Inc.,Renmin University of China,Tencent Inc.,Tsinghua University,WeChat AI,Yale University,Zhihu Inc.",,,w/ Feedback,w/ Tools,w/ Fine-tuning,,,CS&SE,,Multi-task Evaluation,w/ Benchmark,2023-07-31,arxiv,https://github.com/OpenBMB/ToolBench,https://arxiv.org/abs/2307.16789
+Ghost in the Minecraft,Tsinghua University,,"Hybrid,Read/Write/Reflection",w/ Feedback,,,,,,,Environment Simulation,w/ Benchmark,2023-05-25,arxiv,https://github.com/OpenGVLab/GITM,https://arxiv.org/pdf/2305.17144.pdf
+Mind2Web,The Ohio State University,,,w/o Feedback,w/ Tools,w/ Fine-tuning,,,,,,,2023-06-09,arxiv,https://github.com/OSU-NLP-Group/Mind2Web,https://arxiv.org/abs/2306.06070
+Language Models can Solve Computer Tasks ,University of California,,,w/o Feedback,w/o Tools,Prompt Engineering,,,CS&SE,,Environment Simulation,w/ Benchmark,2023-03-30,arxiv,https://github.com/posgnu/rci-agent,https://arxiv.org/abs/2303.17491
+Tree of Thoughts,"Google DeepMind,Princeton University",,,w/o Feedback,,Prompt Engineering,,,,,Isolated Reasoning,,2023-05-17,arxiv,https://github.com/princeton-nlp/tree-of-thought-llm,https://arxiv.org/abs/2305.10601
+WebShop,Princeton University,,Unified,,w/ Tools,,,,,,"Environment Simulation,Multi-task Evaluation",w/ Benchmark,2022-07-04,NIPS,https://github.com/princeton-nlp/WebShop,https://arxiv.org/abs/2207.01206
+AgentSims,PTA Studio,Handcrafting,"Hybrid,Read/Write",w/ Feedback,w/ Tools,Prompt Engineering,Social Simulation,,,,Social Evaluation,,2023-08-08,arxiv,https://github.com/py499372727/AgentSims,https://arxiv.org/abs/2308.04026
+AgentGPT,,,,,,,,,General Autonomous Agents,,,,2023-04-07,Github,https://github.com/reworkd/AgentGPT,
+ChatCoT,Renmin University ofChina,,Unified,w/ Feedback,w/o Tools,,,,,,,,2023-05-23,arxiv,https://github.com/RUCAIBOX/ChatCoT,https://arxiv.org/abs/2305.14323
+SocraticAI,,,,,,,,,,,,,2023-04-25,Github,https://github.com/RunzheYang/SocraticAI,
+ChatGPT and Software Testing Education,George Mason University,,,,,w/ Fine-tuning,,,,,Software Testing,,2023-03-11,ICSTW,https://github.com/sajedjalil/ChatGPT-Software-Testing-Study,https://arxiv.org/abs/2302.03287
+BOLAA,Salesforce Research,,"Hybrid,Read/Write",w/ Feedback,w/ Tools,w/ Fine-tuning,,,,,"Environment Simulation,Multi-task Evaluation,Software Testing",w/ Benchmark,2023-08-11,arxiv,https://github.com/salesforce/BOLAA.,https://arxiv.org/abs/2308.05960
+TeenageAGI,,,,,,,,,,,,,2023-04-11,Github,https://github.com/seanpixel/Teenage-AGI,
+Gorilla,"Berkeley,University of California",,"Hybrid,Read/Write",,w/ Tools,w/ Fine-tuning,,,,,,w/ Benchmark,2023-05-24,arxiv,https://github.com/ShishirPatil/gorilla,https://arxiv.org/abs/2305.15334
+Auto-GPT for Online Decision Making,Amazon,,"Hybrid,Read/Write",w/ Feedback,w/ Tools,,,,General Autonomous Agents,,,,2023-03-16,Github,https://github.com/Significant-Gravitas/Auto-GPT,
+Agentflow,,,,,,,,,,,,,2023-08-02,Github,https://github.com/simonmesmith/agentflow,
+Distilling Script Knowledge from Large Language Models for Constrained Language Planning,Fudan University,,,w/o Feedback,w/o Tools,w/ Fine-tuning,,,,,,,2023-05-26,ACL,https://github.com/siyuyuan/coscript,https://arxiv.org/pdf/2305.05252.pdf
+ SmolModels,,,,,,,,,CS&SE,,,,2023-05-13,Github,https://github.com/smol-ai/developer,
+Graph of Thoughts,ETH Zürich,,,w/o Feedback,,,,,,,,w/ Benchmark,2023-08-21,arxiv,https://github.com/spcl/graph-of-thoughts,https://arxiv.org/abs/2308.09687
+Can Language Models Teach Weaker Agents? Teacher Explanations Improve Students via Theory of Mind,University of North Carolina,,Unified,w/ Feedback,w/o Tools,,,,,,,,2023-06-15,arxiv,https://github.com/swarnaHub/ExplanationIntervention,[2306.09299] Can Language Models Teach Weaker Agents? Teacher Explanations Improve Students via Theory of Mind (arxiv.org)
+Language Models Meet World Models,"University of California San Diego,University of Illinois Urbana-Champaign",,"Hybrid,Read/Write",w/o Feedback,w/o Tools,,,,Robotics & Embodied AI,,,,2023-05-18,arxiv,https://github.com/szxiangjn/world-model-for-language-model,https://arxiv.org/pdf/2305.10626.pdf
+Workgpt,,,,,,,,,General Autonomous Agents,,,,2023-05-02,arxiv,https://github.com/team-openpm/workgpt,
+AgentBench,Tsinghua University,,,,,,,,,,Multi-task Evaluation,w/ Benchmark,2023-08-07,arxiv,https://github.com/thudm/agentbench,https://arxiv.org/abs/2308.03688
+SuperAGI,,,,,,,,,General Autonomous Agents,,,,2023-05-13,Github,https://github.com/TransformerOptimus/SuperAGI,
+ChemCrow,École Polytechnique Fédérale de Lausanne,,Unified,w/ Feedback,w/ Tools,,,"Document,Experiment Assistant",,,,,2023-04-11,arxiv,https://github.com/ur-whitelab/chemcrow-public,https://arxiv.org/abs/2304.05376
+Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-Controlled Memory System,"Beihang University,ByteDance AI Lab,Harbin Institute of Technology",,"Hybrid,Read/Write/Reflection",,,,,,,Human Annotation,,,2023-04-26,arxiv,https://github.com/wbbeyourself/scm4llms,https://arxiv.org/abs/2304.13343
+WebArena,"Carnegie Mellon University,Inspired Cognition",,,,,,,,,,Environment Simulation,w/ Benchmark,2023-07-25,arxiv,https://github.com/web-arena-x/webarena,https://arxiv.org/abs/2307.13854
+Mobile-Env,Shanghai Jiao Tong University,,Unified,w/ Feedback,w/o Tools,Prompt Engineering,,,,,"Environment Simulation,Isolated Reasoning,Multi-task Evaluation",w/ Benchmark,2023-05-14,arxiv,https://github.com/X-LANCE/Mobile-Env,https://arxiv.org/abs/2305.08144
+XLang,,,,,,,,,,,,,2023-08-08,Github,https://github.com/xlang-ai,
+BabyAGI,,,,,,,,,General Autonomous Agents,,,,2023-04-03,Github,https://github.com/yoheinakajima/babyagi,
+ReAct,Princeton University,,,w/ Feedback,w/ Tools,w/ Fine-tuning,,,,,Environment Simulation,w/ Benchmark,2022-10-06,ICLR,https://github.com/ysymyth/ReAct,https://arxiv.org/abs/2210.03629
+Towards autonomous system,University of Stuttgart,Handcrafting,,w/ Feedback,w/ Tools,Prompt Engineering,,,Industrial Automation,,Software Testing,,2023-04-28,arxiv,https://github.com/YuchenXia/GPT4IndustrialAutomation,https://arxiv.org/abs/2304.14721
+MemoryBank,Sun Yat-Sen University,,"Hybrid,Read/Write/Reflection",,,,,,,Human Annotation,,,2023-05-17,arxiv,https://github.com/zhongwanjun/MemoryBank-SiliconFriend,https://arxiv.org/abs/2305.10250
+Exploring Collaboration Mechanisms for LLM Agents,"National University of Singapore,Zhejiang University",Handcrafting,,w/ Feedback,w/o Tools,Mechanism Engineering,Social Simulation,,,,Social Evaluation,w/ Benchmark,2023-10-03,arxiv,https://github.com/zjunlp/MachineSoM,https://browse.arxiv.org/pdf/2310.02124.pdf
+HuggingGPT,"Microsoft,Zhejiang University",,Unified,w/o Feedback,w/ Tools,,,,,,Multi-task Evaluation,w/ Benchmark,2023-03-30,arxiv,https://huggingface.co/papers/2303.17580,https://arxiv.org/abs/2303.17580
+Inner Monologue,Google,,,w/ Feedback,w/o Tools,Prompt Engineering,,,Robotics & Embodied AI,,,,2022-07-12,arxiv,https://innermonologue.github.io/,https://arxiv.org/abs/2207.05608
+Sherlock,,,,,,,,,,,,,2023-06-27,Github,https://krafton-ai.github.io/sherlock/,
+AutoGen,"Microsoft,Pennsylvania State University,University of Washington",Handcrafting,Unified,,w/ Tools,Mechanism Engineering,,Science Education,General Autonomous Agents,,,,2023-08-16,arxiv,https://microsoft.github.io/FLAML/docs/Use-Cases/Autogen/,https://arxiv.org/abs/2308.08155
+RoCo,Columbia University,,Unified,w/ Feedback,w/ Tools,,,,Robotics & Embodied AI,,"Environment Simulation,Multi-task Evaluation,Social Evaluation",w/ Benchmark,2023-07-10,arxiv,https://project-roco.github.io/,[2307.04738] RoCo: Dialectic Multi-Robot Collaboration with Large Language Models (arxiv.org)
+Playing repeated games with Large Language Models ,University of Tübingen,,,,,,Social Simulation,,,,,,2023-05-26,arxiv,https://react-lm.github.io/,https://arxiv.org/abs/2305.16867
+RestGPT,Peking University,,Unified,w/ Feedback,w/ Tools,,,,CS&SE,,,w/ Benchmark,2023-06-11,arxiv,https://restgpt.github.io,[2306.06624] RestGPT: Connecting Large Language Models with Real-World RESTful APIs (arxiv.org)
+RestGPT,Peking University,,,w/ Feedback,w/ Tools,,,,CS&SE,,,,2023-06-11,arxiv,https://restgpt.github.io/,https://arxiv.org/abs/2306.06624
+"Do As I Can, Not As I Say",Google,,,w/o Feedback,w/o Tools,Mechanism Engineering,,,Robotics & Embodied AI,,,,2022-04-04,arxiv,https://say-can.github.io/,https://arxiv.org/pdf/2204.01691.pdf
+SayPlan,,Handcrafting,Unified,w/ Feedback,w/ Tools,,,,Robotics & Embodied AI,,,,2023-07-12,arxiv,https://sayplan.github.io/,[2307.06135] SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Task Planning (arxiv.org)
+The SocialAI School,"French National Centre for Scientific Research,National Institute for Research in Digital Science and Technology,Ubisoft",,,,,,Social Simulation,,,,,,2023-07-15,ICML,https://sites.google.com/view/socialai-school,https://arxiv.org/abs/2307.07871
+Building Cooperative Embodied Agents Modularly with Large Language Models,"Massachusetts Institute of Technology,Shanghai Jiao Tong University,Tsinghua University,University of Massachusetts Amherst",Handcrafting,"Hybrid,Read/Write",w/o Feedback,,,,,,Human Annotation,Environment Simulation,,2023-07-05,arxiv,https://vis-www.cs.umass.edu/Co-LLM-Agents/,https://arxiv.org/pdf/2307.02485.pdf
+"A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis",Google DeepMind,,,,,,,,,,"Environment Simulation,Multi-task Evaluation",w/ Benchmark,2022-07-04,NIPS,https://webshop-pnlp.github.io/,https://arxiv.org/abs/2307.12856
+SwiftSage,"4Paradigm Inc,Allen Institute for Artificial Intelligence,Tsinghua University,University of Southern California,University of Washington",,"Hybrid,Read/Write",w/ Feedback,w/o Tools,w/ Fine-tuning,,,,,,,2023-05-27,arxiv,https://yuchenlin.xyz/swiftsage/,https://arxiv.org/abs/2305.17390
+Mm-react,,,,w/o Feedback,w/ Tools,,,,,,Multi-task Evaluation,,2023-03-20,arxiv,MM-ReAct: Prompting ChatGPT for Multimodal Reasoning and Action (multimodal-react.github.io),[2303.11381] MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action (arxiv.org)
+Taskmatrix. ai,Microsoft,,,w/o Feedback,w/ Tools,,,,Industrial Automation,,,,2023-03-29,arxiv,TaskMatrix/TaskMatrix.AI at main · microsoft/TaskMatrix · GitHub,[2303.16434] TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs (arxiv.org)
+Natural-Language Multi-Agent Simulations of ,,,,,,,,,,,,,,,,
+Argumentative Opinion Dynamics ,Karlsruhe Institute of Technology,,,,,,,,,,,,2021-04-14,JASSS,,https://arxiv.org/pdf/2104.06737.pdf
+WebGPT,OpenAI,,,,w/ Tools,w/ Fine-tuning,,,,,,w/ Benchmark,2021-12-17,arxiv,,https://arxiv.org/abs/2112.09332
+Chain-of-Thought Prompting Elicits Reasoningin Large Language Models,"Brain Team,Google Research",,Unified,w/o Feedback,,Mechanism Engineering,,,,,Multi-task Evaluation,w/ Benchmark,2022-01-28,NIPS,,https://proceedings.neurips.cc/paper_files/paper/2022/file/9d5609613524ecf4f15af0f7b31abca4-Paper-Conference.pdf
+Self-Consistency Improves Chain of Thought Reasoning in Language Models,"Brain Team,Google Research",,,w/o Feedback,,Prompt Engineering,,,,,,,2022-03-07,ICLR,,https://arxiv.org/abs/2203.11171
+MRKL Systems,AI21 Labs,,,w/o Feedback,w/ Tools,,,,,,,,2022-05-01,arxiv,,https://arxiv.org/abs/2205.00445
+ TALM,Google,,,w/o Feedback,w/ Tools,w/ Fine-tuning,,,,,,w/ Benchmark,2022-05-24,arxiv,,https://arxiv.org/abs/2205.12255
+"A Neural Network Solves, Explains, and ",,,,,,,,,,,,,,,,
+Generates University Math Problems by Program ,,,,,,,,,,,,,,,,
+Synthesis and Few-Shot Learning at Human Level ,Massachusetts Institute of Technology,,Unified,w/o Feedback,w/o Tools,Prompt Engineering,,Science Education,,,,,2022-06-01,PNAS,,https://www.pnas.org/doi/full/10.1073/pnas.2123433119
+Social Simulacra,"Google Research,Stanford University",GPT-Generated,,,w/o Tools,Prompt Engineering,Social Simulation,,,Human Annotation,Social Evaluation,,2022-08-08,UIST,,https://arxiv.org/abs/2208.04024
+"Out of One, Many",Brigham Young University,Dataset alignment,,,w/o Tools,Prompt Engineering,Political Science and Economy,,,Human Annotation,"Multi-task Evaluation,Social Evaluation",,2022-09-14,arxiv,,https://arxiv.org/pdf/2209.06899.pdf
+Large Language Models are Few-shot Testers,Korea Advanced Institute of Science and Technology,,Unified,w/o Feedback,w/ Tools,,,,CS&SE,,Software Testing,w/ Benchmark,2022-09-23,ICSE,,https://arxiv.org/abs/2209.11515
+Planning with Large Language Models via Corrective ,,,,,,,,,,,,,,,,
+Re-prompting,Brown University,,Unified,w/o Feedback,,Prompt Engineering,,,,,Environment Simulation,w/ Benchmark,2022-11-17,arxiv,,https://arxiv.org/pdf/2211.09935.pdf
+Language Models as Agent Models,Massachusetts Institute of Technology,,,,,,,,,,,,2022-12-03,ENMLP,,https://arxiv.org/abs/2212.01681
+Evaluating Human-Language Model Interaction,Stanford University,,,,,,,,,Human Annotation,,,2022-12-19,arxiv,,https://arxiv.org/abs/2212.09746
+Memory Augmented Large Language Models are Computationally Universal,"Google Brain,University of Alberta",,Hybrid,,w/o Tools,,,,,,,,2023-01-10,arxiv,,https://arxiv.org/abs/2301.04589
+Blind Judgement,McGill University,,,,,w/ Fine-tuning,Jurisprudence,,,,,,2023-01-12,arxiv,,https://arxiv.org/pdf/2301.05327.pdf
+Large Language Models as Simulated Economic Agents,,,,,,,,,,,,,,,,
+What Can We Learn from Homo Silicus?,"Massachusetts Institute of Technology,University College London",Handcrafting,,,w/o Tools,,Political Science and Economy,,,,,,2023-01-18,arxiv,,https://arxiv.org/abs/2301.07543
+Collaborating with language models for embodied reasoning,DeepMind,,"Hybrid,Read/Write/Reflection",w/ Feedback,w/o Tools,Prompt Engineering,,,Robotics & Embodied AI,,Environment Simulation,,2023-02-01,NIPS,,https://arxiv.org/abs/2302.00763
+Theory of Mind May Have Spontaneously Emerged in Large Language Models,Stanford University,Handcrafting,,,,,Psychology,,,,,,2023-02-04,arxiv,,https://arxiv.org/abs/2302.02083
+Chain of Hindsight Aligns Language Models with Feedback,"Berkeley,University of  California",,,,,Prompt Engineering,,,,Human Annotation,,,2023-02-06,arxiv,,"http://arXiv preprint arXiv:2302.02676, 2023"
+DERA,Curai Health,Handcrafting,"Hybrid,Read/Write",w/ Feedback,,,,,,Human Annotation,Multi-task Evaluation,w/ Benchmark,2023-03-30,arxiv,,https://arxiv.org/pdf/2303.17071.pdf?trk=public_post_comment-text
+Emergent autonomous scientific research capabilities of large language models,Carnegie Mellon University,,"Hybrid,Read/Write",w/ Feedback,w/ Tools,,,"Data Management,Document,Experiment Assistant,Science Education",,,,,2023-04-11,arxiv,,https://arxiv.org/pdf/2304.05332.pdf
+Toxicity in CHATGPT,"Georgia Tech,Princeton University,The Allen Institute for AI",Handcrafting,,,,,,,,,,,2023-04-11,arxiv,,https://arxiv.org/abs/2304.05335
+Can Large Language Models Transform Computational Social Science?,"Georgia Institute of Technology,Shanghai Jiao Tong University,Stanford University",,,,,,"Political Science and Economy,Psychology,Research Assistant",,,Human Annotation,,,2023-04-12,arxiv,,https://arxiv.org/pdf/2305.03514.pdf
+API-Bank,Peking University,,,w/ Feedback,w/ Tools,Prompt Engineering,,,,,,,2023-04-14,arxiv,,https://arxiv.org/abs/2304.08244
+Self-collaboration Code Generation via ChatGPT,Peking University,Handcrafting,,w/o Feedback,w/o Tools,Mechanism Engineering,,,CS&SE,,,,2023-04-15,arxiv,,https://arxiv.org/pdf/2304.07590.pdf
+Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback ,Purdue University,,Unified,w/ Feedback,w/o Tools,w/ Fine-tuning,,,Civil Engineering,,Environment Simulation,w/ Benchmark,2023-04-21,arxiv,,https://arxiv.org/abs/2304.10750
+Multi-Party Chat,"Cornell University,Meta AI Research",Dataset alignment,,,,,,,,Human Annotation,Social Evaluation,w/ Benchmark,2023-04-26,arxiv,,https://arxiv.org/abs/2304.13835
+Industrial Engineering with Large Language Models,International Business Machines Corporation,,,w/o Feedback,,,,,Industrial Automation,,,,2023-04-27,arxiv,,https://arxiv.org/abs/2304.14354
+Learning to Reason and Memorize with Self-Notes,Meta AI,,Unified,w/o Feedback,,w/ Fine-tuning,,,,,,w/ Benchmark,2023-05-01,arxiv,,https://arxiv.org/abs/2305.00833
+"Plan, Eliminate, and Track -- Language Models are Good Teachers for Embodied Agents",Carnegie Mellon University,,Unified,w/ Feedback,w/o Tools,Prompt Engineering,,,Robotics & Embodied AI,,Environment Simulation,w/ Benchmark,2023-05-03,arxiv,,https://arxiv.org/abs/2305.02412
+Can Generative AI Improve Social Science Research?,Duke University,,,,,,Research Assistant,,,,,,2023-05-12,osf.io,,https://osf.io/rwtzs/download
+Introspective Tips,Microsoft,,,w/ Feedback,,Prompt Engineering,,,,,,w/ Benchmark,2023-05-19,arxiv,,https://arxiv.org/abs/2305.11598
+Augmenting Autotelic Agents with Large Language ModelsSuperAGI,"Massachusetts Institute of Technology,Microsoft Research",,"Hybrid,Read/Write",w/ Feedback,w/o Tools,Mechanism Engineering,,,,,,,2023-05-21,arxiv,,https://arxiv.org/abs/2305.12487
+RecurrentGPT,ETH Zürich,,"Hybrid,Read/Write/Reflection",w/o Feedback,,,,,,Human Annotation,,w/ Benchmark,2023-05-22,arxiv,,https://arxiv.org/abs/2305.13304
+Reflective Linguistic Programming (RLP),SocialAGI,Handcrafting,"Hybrid,Read/Write/Reflection",w/ Feedback,,Prompt Engineering,,,,,,,2023-05-22,arxiv,,https://arxiv.org/pdf/2305.12647.pdf
+RET-LLM,Microsoft,,"Hybrid,Read/Write",,,w/ Fine-tuning,,,,,,,2023-05-23,arxiv,,https://arxiv.org/abs/2305.14322
+Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs ,"Anthropic,Google,New York University",,,,,,,,,,Environment Simulation,w/ Benchmark,2023-05-23,arxiv,,https://arxiv.org/abs/2305.14279
+Do LLMs Understand Social Knowledge? Evaluating the Sociability of Large Language Models with SOCKET Benchmark ,University of Michigan,,,,,,,,,,"Multi-task Evaluation,Social Evaluation",w/ Benchmark,2023-05-24,arxiv,,https://arxiv.org/pdf/2305.14938.pdf
+Reasoning with Language Model is Planning with World Model,"Mohamed bin Zayed University of Artificial Intelligence,UC San Diego,University of Florida",,,w/o Feedback,w/o Tools,w/ Fine-tuning,,,,,,,2023-05-24,arxiv,,https://arxiv.org/pdf/2305.14992.pdf
+Role-Play with Large Language Models,"DeepMind,Eleuther AI,Imperial College London",Handcrafting,,,,,,,,,,,2023-05-25,arxiv,,https://arxiv.org/abs/2305.16367
+SQL-PALM,"Cloud AI Research Team,DeepMind",,Unified,w/o Feedback,w/o Tools,w/ Fine-tuning,,,CS&SE,,,w/ Benchmark,2023-05-26,arxiv,,https://arxiv.org/abs/2306.00739
+Encouraging divergent thinking in large language models through multi-agent debate,Tsinghua University,Handcrafting,Unified,w/ Feedback,,,,,,,,,2023-05-30,arxiv,,https://arxiv.org/pdf/2305.19118.pdf
+Minding Language Models’ (Lack of) Theory of Mind,"Carnegie Mellon University,University of Washington",,"Hybrid,Read/Write",w/o Feedback,,,,,,,Social Evaluation,w/ Benchmark,2023-06-01,arxiv,,https://arxiv.org/abs/2306.00924
+ MULTI-AGENT COLLABORATION,"University of Alberta,York University",Handcrafting,,w/ Feedback,w/ Tools,w/ Fine-tuning,,,,,,w/ Benchmark,2023-06-05,arxiv,,https://arxiv.org/pdf/2306.03314.pdf
+ChatDB,,,,,,,,,,,,,,,,
+Enabling Intelligent Interactions between an Agent and an LLM,Zhejiang Lab,,Unified,w/o Feedback,w/o Tools,Mechanism Engineering,,,Robotics & Embodied AI,,Environment Simulation,,2023-06-06,researchgate.net,,https://arxiv.org/abs/2306.03604
+Large Language Model Is Semi-Parametric Reinforcement Learning Agent,Shanghai Jiao Tong University,,"Hybrid,Read/Write/Reflection",w/o Feedback,,Mechanism Engineering,,,Robotics & Embodied AI,,Environment Simulation,w/ Benchmark,2023-06-09,arxiv,,https://arxiv.org/abs/2306.07929
+Augmenting Language Models with Long-Term Memory,"Microsoft,University of California",,"Hybrid,Read/Write/Reflection",,w/o Tools,w/ Fine-tuning,,,,,,w/ Benchmark,2023-06-12,arxiv,,https://arxiv.org/abs/2306.07174
+AI and the transformation of social science research,University of Waterloo,,,,,,Social Simulation,"Experiment Assistant,Science Education",,,,,2023-06-15,science,,https://www.science.org/doi/full/10.1126/science.adi1778
+The Tong Test,"Beijing Institute for General Artificial Intelligence,Peking University",,,,,,,,,Human Annotation,"Environment Simulation,Multi-task Evaluation,Social Evaluation",w/ Benchmark,2023-07-01,Engineering,,https://www.sciencedirect.com/science/article/pii/S209580992300293X
+Embodied Task Planning with Large Language Models,Beijing University of Posts and Telecommunications,,Unified,w/o Feedback,w/o Tools,w/ Fine-tuning,,,Robotics & Embodied AI,,Environment Simulation,w/ Benchmark,2023-07-04,arxiv,,https://arxiv.org/abs/2307.01848
+Math Agents,"Lutheran University of Brazil,RedBud AI,Teikyo University,University College London",,,,,,,Science Education,,,,,2023-07-04,arxiv,,https://arxiv.org/pdf/2307.02502.pdf
+,Salesforce Research,,,w/ Feedback,w/o Tools,Prompt Engineering,,,,,,,2023-07-18,arxiv,,https://arxiv.org/pdf/2307.08962.pdf
+REX,"Google DeepMind,Imperial College London",,,,,,,,Robotics & Embodied AI,,,,2023-07-18,ICLR,,https://arxiv.org/abs/2307.09668
+Are you in a Masquerade? Exploring the Behavior and Impact of Large Language Model Driven Social Bots in Online Social Networks,Sichuan University,,,,,,Social Simulation,,,,Social Evaluation,w/ Benchmark,2023-07-19,arxiv,,https://arxiv.org/abs/2307.10337
+Tachikuma,"University of Technology Sydney,Zhejiang University",Dataset alignment,Unified,w/ Feedback,w/o Tools,Mechanism Engineering,,,,Human Annotation,Environment Simulation,w/ Benchmark,2023-07-24,arxiv,,https://arxiv.org/abs/2307.12573
+S3 ,Tsinghua University,Dataset alignment,"Hybrid,Read/Write/Reflection",,w/o Tools,Mechanism Engineering,Social Simulation,,,,,,2023-07-27,arxiv,,https://arxiv.org/abs/2307.14984
+Dialogue Shaping,Georgia Institute of Technology,Handcrafting,Unified,w/ Feedback,w/o Tools,Mechanism Engineering,,,Robotics & Embodied AI,,,,2023-07-28,arxiv,,https://arxiv.org/pdf/2307.15833.pdf
+Understanding the Benefits and Challenges of Using Large Language Model-based Conversational Agents for Mental Well-being Support,"Emory University,Harvard University,Irvine,UniUniversity of California",,,,,,Psychology,,,,,,2023-07-28,arxiv,,https://arxiv.org/abs/2307.15810
+ChatMOF,Korea Advanced Institute of Science and Technology,,Unified,w/ Feedback,w/ Tools,,,"Data Management,Document",,,,,2023-08-01,arxiv,,https://arxiv.org/pdf/2308.01423.pdf
+The Hitchhiker’s Guide to Program Analysis,UC Riverside,,,w/ Feedback,w/o Tools,Prompt Engineering,,,CS&SE,,,,2023-08-01,arxiv,,https://arxiv.org/abs/2308.00245
+InterAct,National Tsing Hua University,,Unified,w/ Feedback,w/o Tools,Prompt Engineering,,,,,,,2023-08-03,arxiv,,https://arxiv.org/abs/2308.01552
+RETROFORMER,Salesforce Research,,,,,w/ Fine-tuning,,,,,,,2023-08-04,arxiv,,https://arxiv.org/abs/2308.02151
+TPTU,SenseTime Research,,"Hybrid,Read/Write",w/o Feedback,w/ Tools,Prompt Engineering,,,,,Multi-task Evaluation,,2023-08-07,arxiv,,https://arxiv.org/pdf/2308.03427.pdf
+Agreement and Statistical Efficiency in Bayesian Perception Models,Massachusetts Institute of Technology,,,,,,,,,,,,2023-08-09,arxiv,,https://arxiv.org/abs/2205.11561
+Enhancing Trust in LLM-Based AI Automation Agents,IBM Research,,,,,,,,,,,,2023-08-10,arxiv,,https://arxiv.org/abs/2308.05391
+Dynamic Planning with a LLM,University of Edinburgh,,Unified,w/o Feedback,w/o Tools,Prompt Engineering,,,,,,,2023-08-11,arxiv,,https://arxiv.org/abs/2308.06391
+Mindstorms in Natural Language-Based Societies of Mind,"Beihang University,University of Oxford",Handcrafting,,,w/ Tools,,,Science Education,Robotics & Embodied AI,,"Environment Simulation,Multi-task Evaluation",w/ Benchmark,2023-05-26,arxiv,,[2305.17066] Mindstorms in Natural Language-Based Societies of Mind (arxiv.org)
+Personality Traits in Large Language Models,"Berkeley,Google,University of California",Handcrafting,,,w/o Tools,,Psychology,,,Turing Test,Social Evaluation,,2023-07-01,arxiv,,[2307.00184] Personality Traits in Large Language Models (arxiv.org)
+Self-Adaptive Large Language Model (LLM)-Based Multiagent Systems,University of Waterloo,,Unified,w/o Feedback,w/o Tools,,,,,,,,2023-07-12,arxiv,,[2307.06187] Self-Adaptive Large Language Model (LLM)-Based Multiagent Systems (arxiv.org)
+A large language model-assisted education tool to provide feedback on open-ended responses,Johns Hopkins University,,,,w/ Tools,,,Science Education,,,,,2023-07-25,arxiv,,[2308.02439] A large language model-assisted education tool to provide feedback on open-ended responses (arxiv.org)
+Memory Sandbox,University of California San Diego,,"Hybrid,Read/Write/Reflection",,w/o Tools,,,,,,,,2023-08-03,arxiv,,https://arxiv.org/abs/2308.01542
+Benchmarking LLM powered Chatbots,,,,,,,,,,,,w/ Benchmark,2023-08-08,arxiv,,[2308.03656] Emotionally Numb or Empathetic? Evaluating How LLMs Feel Using EmotionBench (arxiv.org)
+PentestGPT,Nanyang Technological University,,"Hybrid,Read/Write",w/ Feedback,w/o Tools,,,,CS&SE,,Software Testing,w/ Benchmark,2023-08-13,arxiv,,[2308.06782] PentestGPT: An LLM-empowered Automatic Penetration Testing Tool (arxiv.org)
+CodeHelp,Carnegie Mellon University,,,w/o Feedback,w/o Tools,Prompt Engineering,,Science Education,CS&SE,,,,2023-08-14,arxiv,,[2308.06921] CodeHelp: Using Large Language Models with Guardrails for Scalable Support in Programming Classes (arxiv.org)
+CALYPSO,University of Maryland,,Unified,,w/o Tools,,,,,,,,2023-08-15,arxiv,,[2308.07540] CALYPSO: LLMs as Dungeon Masters' Assistants (arxiv.org)
+RAH! RecSys-Assistant-Human,Fudan University,,"Hybrid,Read/Write/Reflection",w/o Feedback,w/o Tools,,,,,,,w/ Benchmark,2023-08-19,arxiv,,[2308.09904] RAH! RecSys-Assistant-Human: A Human-Central Recommendation Framework with Large Language Models (arxiv.org)
+ExpeL,Tsinghua University,,"Hybrid,Read/Write/Reflection",w/ Feedback,w/ Tools,,,,,,Multi-task Evaluation,w/ Benchmark,2023-08-20,arxiv,,[2308.10144] ExpeL: LLM Agents Are Experiential Learners (arxiv.org)
+ChatEDA,The Chinese University of Hong Kong,,,w/o Feedback,w/ Tools,Mechanism Engineering,,,CS&SE,,,,2023-08-20,arxiv,,[2308.10204] ChatEDA: A Large Language Model Powered Autonomous Agent for EDA (arxiv.org)
+Algorithm of Thoughts,"Microsoft,Virginia Tech",,,w/o Feedback,,,,,,,,w/ Benchmark,2023-08-20,arxiv,,https://arxiv.org/abs/2308.10379
+DiagGPT,University of Illinois Urbana-Champaign,GPT-Generated,Unified,,,,,,,,,,2023-08-21,arxiv,,https://arxiv.org/abs/2308.08043
+ProAgent,The Chinese University of Hong Kong,,"Hybrid,Read/Write",w/ Feedback,w/o Tools,,,,Robotics & Embodied AI,,Environment Simulation,w/ Benchmark,2023-08-22,arxiv,,[2308.11339] ProAgent: Building Proactive Cooperative AI with Large Language Models (arxiv.org)
+PREFER,"Beijing University of Posts and Telecommunications,Peking University",,,w/ Feedback,w/o Tools,,,,,,,,2023-08-23,arxiv,,[2308.12033] PREFER: Prompt Ensemble Learning via Feedback-Reflect-Refine (arxiv.org)
+RecMind,Arizona State University,,"Hybrid,Read/Write",w/o Feedback,w/ Tools,,,,,Human Annotation,Multi-task Evaluation,w/ Benchmark,2023-08-28,arxiv,,[2308.14296] RecMind: Large Language Model Powered Agent For Recommendation (arxiv.org)
+CGMI,East China Normal University,Dataset alignment,"Hybrid,Read/Write/Reflection",w/ Feedback,w/o Tools,w/ Fine-tuning,,,,,,,2023-08-28,arxiv,,https://arxiv.org/abs/2308.12503
