@@ -1,8 +1,10 @@
-# Information-Model-an-LLM-Agent-Architecture
+# Local LLM Comparison for Energy-Efficient Agent Routing
 
-A modular multi-agent architecture for evaluating hallucination reduction strategies in large language models (LLMs) using structured planning taxonomies, agent-level reasoning, and semantic similarity metrics.
+A framework for comparing **local** large language models (LLMs) and routing each task to the model that does the job well *at the lowest power cost* — favoring the leanest capable model so you save energy and keep all data on-device.
 
-This system combines agent generation, response storage, planning categorization, and vector-based evaluation using FAISS, PCA, and KMeans clustering — implemented and tested on a local TinyLLaMA server.
+Each candidate model runs under structured agent strategies (planning, memory, action, profiling, library); responses are stored and embedded, then compared by task cluster, cross-model consensus, task/category fit, and runtime/energy constraints. It combines agent generation, response storage, planning categorization, and vector-based evaluation using FAISS, PCA, and KMeans clustering — implemented and tested against local Ollama models (originally on a TinyLLaMA server).
+
+> **Lineage:** evolved from an earlier multi-agent *hallucination-reduction* study — the same triangulation and weight-updating machinery now drives **power-aware model selection** instead of hallucination scoring.
 
 📘 For a detailed visual walkthrough, check out the full Canva presentation here:  
 - [Canva Link](https://www.canva.com/design/DAGjtP7hnFw/JUAe152lLyDQ9HO9pAIOqg/edit?utm_content=DAGjtP7hnFw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
@@ -45,11 +47,11 @@ This project explores hallucination mitigation in LLMs by:
 
 Each block is modular and reproducible.
 
-### 📊 Figure – Information Model Architecture
+### 📊 Figure – Energy-Efficient Agent Routing
 
-![Information Model Overview](https://github.com/GauraangMalikk/Information-Model-an-LLM-Agent-Architecture/blob/main/GIT%20REPOSITORY/LLM%20%2B%20Agent/figures/infomod.png?raw=true)
+![Energy-efficient agent routing overview](https://github.com/GauraangMalikk/Information-Model-an-LLM-Agent-Architecture/blob/main/GIT%20REPOSITORY/LLM%20%2B%20Agent/figures/infomod.png?raw=true)
 
-*Information Model Overview – The Information Model: Agent selection and weighting framework across task, category, and library matrices. Supports feedback-based learning and triangulation-based reasoning.*
+*Energy-efficient agent routing — local models (Gemma, Llama, DeepSeek, Qwen3) are scored across task, category, and library/RAG matrices. Weights update from feedback (±0.1) and triangulation; the per-task total selects the best model while favoring the leanest / lowest-power one that still converges with the others.*
 [Click here to know more](https://github.com/GauraangMalikk/Information-Model-an-LLM-Agent-Architecture/blob/main/GIT%20REPOSITORY/LLM%20%2B%20Agent/methods/methods.md)
 
 ---
